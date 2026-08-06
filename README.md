@@ -21,19 +21,6 @@
 - [USB DACを抜き差しした後に打鍵音が出ないときの7項目](docs/usb-dac-reconnect-check.md)
 - [Input Monitoringの許可画面が出ないとき、繰り返しクリックする前に確認すること](docs/input-monitoring-prompt-reopen.md)
 - [打鍵音アプリの比較動画を録る前に、録音経路を確認する6ステップ](docs/screen-recording-demo-check.md)
-- [AirPlayへ打鍵音を出す前に確認したい遅延と出力経路](docs/airplay-delay-route-check.md)
-- [内蔵と外付けの2台のキーボードを使うときの打鍵音チェック](docs/multiple-keyboards-check.md)
-- [JIS配列とUS配列で打鍵音を比べるとき、文字と物理キーを分ける](docs/jis-us-keycode-check.md)
-- [Klakkのメニューバーアイコンが見つからないときの確認順序](docs/menubar-icon-hidden-check.md)
-- [macOSアップデート後にKlakkを確認する8項目](docs/macos-update-recheck.md)
-- [Klakkを再インストールするとき、権限と購入を混同しないためのチェック](docs/reinstall-permission-purchase-check.md)
-- [ログイン時にKlakkを起動した後、最初の一音が出るまでに確認すること](docs/login-launch-first-sound-check.md)
-- [キーを押し続けたとき、文字の連続入力と打鍵音の回数が違う理由](docs/held-key-repeat-check.md)
-- [高速入力で打鍵音が重なったとき、音切れと聞き分ける5項目](docs/fast-typing-overlap-check.md)
-- [通知音とKlakkの打鍵音が重なるときの音量確認](docs/notification-mix-check.md)
-- [スリープ復帰後、外部スピーカーだけ無音のときの確認順序](docs/wake-external-speaker-check.md)
-- [複数ディスプレイ接続時に打鍵音の出力先を固定する考え方](docs/multi-display-output-check.md)
-- [Klakkへ問い合わせる前に作る、個人情報を含めない診断メモ](docs/support-diagnostic-template.md)
 
 macOSのInput Monitoring（入力監視）は、ほかのアプリを使っている間にもキーボードや入力デバイスのイベントを検知できる権限です。打鍵音、ショートカット、入力デバイス支援などには必要ですが、利用者にとっては「なぜ必要なのか」が見えにくい権限でもあります。
 
