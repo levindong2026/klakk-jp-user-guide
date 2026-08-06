@@ -16,6 +16,11 @@
 - [打鍵音アプリの音量を決めるときに、先に分けたい4種類の音](docs/typing-sound-volume-calibration.md)
 - [メニューバーアプリを「ログイン時に起動」するか決めるチェックリスト](docs/launch-at-login-decision-guide.md)
 - [Macのスリープ復帰後に打鍵音が出ないときの確認順序](docs/sleep-wake-recovery-checklist.md)
+- [AirPodsで打鍵音が遅れて聞こえるとき、入力漏れと遅延を分ける確認手順](docs/bluetooth-latency-diagnosis.md)
+- [クラムシェルモードで打鍵音の出力先が変わったときの確認順序](docs/clamshell-audio-route-check.md)
+- [USB DACを抜き差しした後に打鍵音が出ないときの7項目](docs/usb-dac-reconnect-check.md)
+- [Input Monitoringの許可画面が出ないとき、繰り返しクリックする前に確認すること](docs/input-monitoring-prompt-reopen.md)
+- [打鍵音アプリの比較動画を録る前に、録音経路を確認する6ステップ](docs/screen-recording-demo-check.md)
 
 macOSのInput Monitoring（入力監視）は、ほかのアプリを使っている間にもキーボードや入力デバイスのイベントを検知できる権限です。打鍵音、ショートカット、入力デバイス支援などには必要ですが、利用者にとっては「なぜ必要なのか」が見えにくい権限でもあります。
 
