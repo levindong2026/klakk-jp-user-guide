@@ -14,6 +14,7 @@
 - [新しいキーボードを買う前に「音だけ」をソフトで試すための比較表](docs/software-before-keyboard-checklist.md)
 - [Input Monitoringを後から取り消し、再び許可するときの確認手順](docs/input-monitoring-revoke-restore.md)
 - [打鍵音アプリの音量を決めるときに、先に分けたい4種類の音](docs/typing-sound-volume-calibration.md)
+- [メニューバーアプリを「ログイン時に起動」するか決めるチェックリスト](docs/launch-at-login-decision-guide.md)
 
 macOSのInput Monitoring（入力監視）は、ほかのアプリを使っている間にもキーボードや入力デバイスのイベントを検知できる権限です。打鍵音、ショートカット、入力デバイス支援などには必要ですが、利用者にとっては「なぜ必要なのか」が見えにくい権限でもあります。
 
