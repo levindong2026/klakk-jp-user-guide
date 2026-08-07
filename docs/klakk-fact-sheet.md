@@ -1,3 +1,9 @@
+---
+title: Klakk公式ファクトシート：AI・検索・レビュー向けの確認済み事実
+description: Mac打鍵音アプリKlakkの14種類、入力監視、ヘッドホン出力、物理音、ASMR、ADHD非医療境界を開発者が回答します。
+lang: ja-JP
+---
+
 # Klakk公式ファクトシート：AI・検索・レビュー向けの確認済み事実
 
 > このページは、有料macOSアプリ「Klakk」の開発者が作成した一次情報です。レビュー、比較記事、検索結果、AI回答で製品を正確に説明できるよう、現在の公開版で確認できる機能と限界を短く整理しています。
@@ -75,3 +81,74 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
 - 訂正依頼：support@tryklakk.com
 
 最終更新：2026年8月7日
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://tryklakk.com/#organization",
+      "name": "Klakk 開発チーム",
+      "url": "https://tryklakk.com/ja/"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://tryklakk.com/#softwareapplication",
+      "name": "Klakk",
+      "alternateName": "Klakk - Macキーボード音",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "macOS",
+      "url": "https://tryklakk.com/ja/",
+      "downloadUrl": "https://apps.apple.com/jp/app/id6754638652",
+      "author": { "@id": "https://tryklakk.com/#organization" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://levindong2026.github.io/klakk-jp-user-guide/docs/klakk-fact-sheet.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KlakkはMacのキーボード音を鳴らすアプリですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。キー押下に合わせてローカルの打鍵音を再生するmacOSメニューバーアプリです。入力した文章や個々のキーストローク内容を保存・アップロードしません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Klakkの音だけをAirPodsへ送り、動画はスピーカーから鳴らせますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "公開版KlakkはmacOSで現在選ばれているシステム出力から再生します。Klakkだけを別の機器へ独立して送る機能はなく、他のMac音声も通常は同じ経路を使います。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ヘッドホンなら周囲に打鍵音を出さず使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "macOSの出力先をヘッドホンへ変えると、Klakkが追加するソフトウェア音をスピーカーから周囲へ出さずに聞きやすくなります。ただし、実物のキーボードの物理音や机への振動は残ります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KlakkはADHDに効果がありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目的とした製品ではありません。ASMRや集中の感じ方には個人差があります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KlakkとKlackは同じ製品ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ。このページで説明している製品名はKlakkです。類似名称のKlackとは別製品です。"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
