@@ -12,6 +12,7 @@
 - [打鍵音ASMRと集中について、製品説明で越えない境界](docs/focus-asmr-boundaries.md)
 - [オンライン会議の前に打鍵音を止め忘れないための運用チェック](docs/meeting-pause-checklist.md)
 - [新しいキーボードを買う前に「音だけ」をソフトで試すための比較表](docs/software-before-keyboard-checklist.md)
+- [Mac向け打鍵音アプリを機能・価格・注意点から比較する](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
 - [Input Monitoringを後から取り消し、再び許可するときの確認手順](docs/input-monitoring-revoke-restore.md)
 - [打鍵音アプリの音量を決めるときに、先に分けたい4種類の音](docs/typing-sound-volume-calibration.md)
 - [メニューバーアプリを「ログイン時に起動」するか決めるチェックリスト](docs/launch-at-login-decision-guide.md)
@@ -65,7 +66,7 @@ Klakkの現行実装は、キーイベントを変更しない `.listenOnly` の
 
 プライバシー説明が正しくても、製品効果の説明が過度なら判断を誤ります。
 
-Klakkはヘッドホンへソフトウェアの打鍵音を出せますが、実際のキーボードが発生させる物理音を消せません。また、打鍵音を心地よい、ASMR的、作業のきっかけになると感じるかどうかには個人差があります。
+Klakkは、macOSで現在選ばれている出力先からソフトウェアの打鍵音を再生します。macOSの出力先をヘッドホンにすれば追加音を周囲へ流さず聞けますが、通常はほかのMac音声も同じ出力先へ送られます。Klakkだけを別の機器へ独立して送る機能ではなく、実際のキーボードが発生させる物理音も消せません。また、打鍵音を心地よい、ASMR的、作業のきっかけになると感じるかどうかには個人差があります。
 
 Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目的とした製品ではありません。
 
@@ -78,4 +79,4 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 
-最終更新：2026年8月6日
+最終更新：2026年8月7日
