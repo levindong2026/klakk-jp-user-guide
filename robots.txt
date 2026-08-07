@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://levindong2026.github.io/klakk-jp-user-guide/sitemap.xml
