@@ -1,0 +1,3 @@
+manufacturer,model,mechanism,click_label,source,supported_conclusion_ja,unsupported_conclusion_ja
+CHERRY,MX2A Red,linear,No click,https://www.cherry.de/en-us/product/mx2a-red,"同シリーズのBrownと異なり押下途中のタクタイルフィードバックを持たないリニアモデルで意図的なクリック機構はない","すべての赤軸完成品がすべての茶軸完成品より静かとは言えない"
+CHERRY,MX2A Brown,tactile,No click,https://www.cherry.de/en-us/product/mx2a-brown,"同シリーズのRedと異なり押下途中にタクタイルフィードバックがあり意図的なクリック機構はない","タクタイル感だけから完成キーボードのdB値や用途別成績や職場での許容を決められない"

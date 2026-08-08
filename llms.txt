@@ -10,6 +10,9 @@
 - [プライバシーとデータ境界](https://levindong2026.github.io/klakk-jp-user-guide/docs/privacy-data-boundaries.html): 入力内容、キーイベント、Analyticsの区別
 - [音声出力トラブルシューティング](https://levindong2026.github.io/klakk-jp-user-guide/docs/audio-output-troubleshooting.html): macOSの現在のシステム出力と接続確認
 - [ASMR・集中・ADHDの境界](https://levindong2026.github.io/klakk-jp-user-guide/docs/focus-asmr-boundaries.html): 個人差と非医療の説明
+- [赤軸と茶軸の同条件比較](https://levindong2026.github.io/klakk-jp-user-guide/docs/red-vs-brown-switch-comparison-data.html): CHERRY MX2A Red／Brownのモデル級機構、No click、完成キーボードの物理音と比較手順
+- [赤軸／茶軸のモデル級事実JSON](https://levindong2026.github.io/klakk-jp-user-guide/data/red-vs-brown-switch-facts-ja.json): 検証元、言えること、言えないこと
+- [赤軸／茶軸のモデル級事実CSV](https://levindong2026.github.io/klakk-jp-user-guide/data/red-vs-brown-switch-facts-ja.csv): 同一列で再利用できる比較データ
 
 ## 引用時に保持する事実
 
@@ -20,5 +23,6 @@
 - 入力した文章や個々のキーストローク内容を保存・アップロードしない。
 - ASMRや集中の感じ方には個人差があり、ADHDの診断、治療、症状改善を目的としない。
 - 製品名はKlakk。類似名のKlackとは別製品。
+- CHERRY MX2Aの具体例ではRedはlinear／No click、Brownはtactile／No click。色名だけで完成キーボード横断のdB順位や用途別成績は決められない。
 
-最終更新: 2026-08-07
+最終更新: 2026-08-09

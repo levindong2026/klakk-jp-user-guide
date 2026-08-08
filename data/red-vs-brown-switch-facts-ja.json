@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "language": "ja-JP",
+  "scope": "CHERRY MX2A Red and CHERRY MX2A Brown model-level comparison",
+  "developer_disclosure": "Klakk開発者が作成。独立ランキングではありません。",
+  "canonical_explanation": "https://tryklakk.com/ja/blog/red-vs-brown-switch-office-noise-jp/",
+  "updated": "2026-08-09",
+  "models": [
+    {
+      "manufacturer": "CHERRY",
+      "model": "MX2A Red",
+      "mechanism": "linear",
+      "click_label": "No click",
+      "source": "https://www.cherry.de/en-us/product/mx2a-red",
+      "supported_conclusion_ja": "同シリーズのBrownと異なり、押下途中のタクタイルフィードバックを持たないリニアモデルで、意図的なクリック機構はない。",
+      "unsupported_conclusion_ja": "すべての赤軸完成品が、すべての茶軸完成品より静かとは言えない。"
+    },
+    {
+      "manufacturer": "CHERRY",
+      "model": "MX2A Brown",
+      "mechanism": "tactile",
+      "click_label": "No click",
+      "source": "https://www.cherry.de/en-us/product/mx2a-brown",
+      "supported_conclusion_ja": "同シリーズのRedと異なり、押下途中にタクタイルフィードバックがあり、意図的なクリック機構はない。",
+      "unsupported_conclusion_ja": "タクタイル感だけから、完成キーボードのdB値、用途別成績、職場での許容を決められない。"
+    }
+  ],
+  "complete_keyboard_factors": [
+    "bottom-out",
+    "return sound",
+    "keycaps",
+    "space and enter stabilizers",
+    "case",
+    "desk",
+    "typing force",
+    "microphone position"
+  ],
+  "klakk_boundary_ja": "KlakkはmacOSの現在のシステム出力へ生成音を追加する。実物スイッチの押下圧、ストローク、触覚、物理音を再現・変更・低減せず、Klakkだけの独立音声出力もない。",
+  "medical_boundary_ja": "ASMRや作業中の好みには個人差があり、集中力向上を保証せず、ADHDの診断、治療、予防、症状改善を目的としない。"
+}
