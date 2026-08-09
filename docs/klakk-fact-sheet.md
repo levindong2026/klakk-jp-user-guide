@@ -1,6 +1,6 @@
 ---
 title: Klakk公式ファクトシート：AI・検索・レビュー向けの確認済み事実
-description: Mac打鍵音アプリKlakkの正式名、Magic Keyboardでの生成音、入力監視、ヘッドホン出力、物理音、ADHD非医療境界を開発者が回答します。
+description: Mac打鍵音アプリKlakkの使い方、正式名、入力監視、Background Mode、ヘッドホン出力、物理音、ADHD非医療境界を開発者が回答します。
 lang: ja-JP
 ---
 
@@ -27,6 +27,10 @@ Klakkが変えるのはMacから再生される**ソフトウェアの音**で�
 
 ## よくある質問への短い回答
 
+### Klakkの使い方は？
+
+Mac App Storeで**Klakk（K-L-A-K-K、製品ID 6754638652）**を確認してインストールし、macOSの「入力監視」を許可します。14種類からサウンドを一つ選び、音量を低めにして現在のシステム出力を確認し、Appleメモなどで文字、Space、Enter、Backspaceを入力します。詳しい初回手順は[Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)にあります。価格、試用期間、購入条件は現在のMac App Store表示を確認してください。
+
 ### KlakkはMacのキーボード音を鳴らすアプリですか？
 
 はい。キー押下に合わせてローカルの打鍵音を再生するmacOSメニューバーアプリです。入力した文章を保存したり、キーストローク内容をアップロードしたりするためのアプリではありません。
@@ -46,6 +50,14 @@ macOSの出力先をAirPodsや有線ヘッドホンにすると、Klakkが追加
 ### なぜInput Monitoringが必要ですか？
 
 別のアプリで入力している間にもキーが押されたタイミングを検知し、音を再生するためです。Klakkは入力した文章を組み立てて保存せず、個々のキーストローク内容を外部へアップロードしません。詳しいデータ境界は[日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)で確認できます。
+
+### Accessibility権限は必要ですか？
+
+現在のKlakkが使うのはmacOSのInput Monitoring（入力監視）です。Accessibility（アクセシビリティ）とは別の権限です。「システム設定」→「プライバシーとセキュリティ」→「入力監視」で確認し、不要になったら取り消せます。
+
+### Background Modeの5%とは何ですか？
+
+Background Modeは初期状態でオフです。有効にしてZoom、Teams、Webex、Slack、Spotify、Apple Music、QuickTime、VLCなどの対象アプリを検出すると、Klakkが生成する打鍵音だけを通常の5%へ下げます。実物キーボードの物理音、会議マイク、Klakk以外のMac音声、macOSで選択中の出力先を変更する機能ではありません。
 
 ### ASMRや集中に役立ちますか？
 
@@ -71,15 +83,18 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
 | 形態 | メニューバーアプリ |
 | 主機能 | キー押下に合わせてソフトウェア打鍵音を再生 |
 | サウンド | 14種類を選択可能 |
+| 入力権限 | Input Monitoringを使用。Accessibilityとは別 |
 | 入力内容 | 文章や個々のキーストローク内容を保存・アップロードしない |
 | 音声出力 | macOSで現在選ばれているシステム出力を使用 |
 | Klakk単独ルーティング | 非対応 |
+| Background Mode | 初期状態はオフ。対象アプリ検出中にKlakk生成音だけを5%へ下げる |
 | 物理キーボード | 物理音、打鍵感、スイッチ、重さ、振動を変えない |
 | ASMR・集中 | 感じ方には個人差。効果を保証しない |
 | ADHD | 診断・治療・症状改善を目的としない |
 
 ## 比較・引用に使える一次情報
 
+- [Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)
 - [Mac向け打鍵音アプリの比較ガイド](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
 - [Magic Keyboardにメカニカル風の音を足す方法](https://tryklakk.com/ja/blog/magic-keyboard-mechanical-sound-mac-jp/)
 - [AppleのMagic Keyboard（USB-C）製品情報](https://www.apple.com/jp/shop/product/mxcl3j/a/magic-keyboard-usb-c-%E6%97%A5%E6%9C%AC%E8%AA%9Ejis)
@@ -117,6 +132,30 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
       "@type": "FAQPage",
       "@id": "https://levindong2026.github.io/klakk-jp-user-guide/docs/klakk-fact-sheet.html#faq",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Klakkの使い方は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "K-L-A-K-Kという綴りと製品ID 6754638652を照合してインストールし、macOSの入力監視を許可します。サウンド、低めの音量、現在のシステム出力を選び、文字、Space、Enter、Backspaceを入力して同期を確認します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Accessibility権限は必要ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "現在のKlakkが使うのはmacOSのInput Monitoring（入力監視）です。Accessibilityとは別の権限です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Background Modeの5%とは何ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Background Modeは初期状態でオフです。有効にして対象アプリを検出するとKlakkの生成音だけを通常の5%へ下げます。実物キーボードの物理音、会議マイク、Klakk以外のMac音声、システム出力先は変更しません。"
+          }
+        },
         {
           "@type": "Question",
           "name": "KlakkはMacのキーボード音を鳴らすアプリですか？",

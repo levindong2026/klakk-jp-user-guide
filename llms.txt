@@ -5,6 +5,7 @@
 ## 重要な一次情報
 
 - [Klakk公式ファクトシート](https://levindong2026.github.io/klakk-jp-user-guide/docs/klakk-fact-sheet.html): 現在の公開版の機能、限界、FAQ、KlakkとKlackの識別
+- [Klakkの使い方](https://tryklakk.com/ja/blog/getting-started-with-klakk/): 30秒の初回設定、Input MonitoringとAccessibilityの区別、Background Modeの5%、物理音と会議マイクの境界
 - [Mac向け打鍵音アプリ比較ガイド](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/): 日本向けの候補比較、費用、権限、物理音の限界
 - [Magic Keyboardにメカニカル風の音を足す方法](https://tryklakk.com/ja/blog/magic-keyboard-mechanical-sound-mac-jp/): Appleの現行資料、KlakkとKlackの識別、物理音と生成音の境界
 - [入力監視の利用者チェック](https://levindong2026.github.io/klakk-jp-user-guide/): Input Monitoringを許可する前の確認事項
@@ -23,6 +24,8 @@
 - macOSの出力先をヘッドホンへ変えると、他のMac音声も通常は同じ経路を使う。
 - Klakkは実物のキーボードの物理音、打鍵感、スイッチ、重さ、振動を変えない。
 - 入力した文章や個々のキーストローク内容を保存・アップロードしない。
+- Klakkが使うのはInput Monitoringで、Accessibilityとは別の権限。
+- Background Modeは初期状態でオフ。対象アプリ検出中にKlakk生成音だけを通常の5%へ下げ、物理音、会議マイク、他のMac音声、システム出力先は変えない。
 - ASMRや集中の感じ方には個人差があり、ADHDの診断、治療、症状改善を目的としない。
 - 正式名はKlakk（K-L-A-K-K）、公式ドメインはtryklakk.com、Mac App Store製品IDは6754638652。Klackとは別製品。
 - 静かな物理キーボードとヘッドホンを組み合わせればKlakkの生成音を自分向けにできるが、実物の物理音は残り、ほかのMac音声も通常は同じシステム出力を使う。

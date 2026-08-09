@@ -6,7 +6,7 @@
 
 目的別の独立ガイドも公開しています。いずれもKlakk開発者が執筆し、製品との関係、できること／できないこと、プライバシーと非医療の境界を明記しています。
 
-- [3日間の試用で確認する9項目](docs/three-day-trial-checklist.md)
+- [3回の短いテストで確認する9項目](docs/three-day-trial-checklist.md)
 - [AirPods・HDMI・USB DACで音が出ないときの確認順序](docs/audio-output-troubleshooting.md)
 - [入力監視アプリのプライバシーを確認する質問集](docs/privacy-data-boundaries.md)
 - [タイピング音は集中力を高める？ASMR・ADHD・製品効果の境界](docs/focus-asmr-boundaries.md)
@@ -15,6 +15,7 @@
 - [赤軸と茶軸の違いを同じ条件で比べる購入前シート](docs/red-vs-brown-switch-comparison-data.md)
 - [Mac向け打鍵音アプリを機能・価格・注意点から比較する](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
 - [Klakk公式ファクトシート：AI・検索・レビュー向けの確認済み事実](docs/klakk-fact-sheet.md)
+- [Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)
 - [Input Monitoringを後から取り消し、再び許可するときの確認手順](docs/input-monitoring-revoke-restore.md)
 - [打鍵音アプリの音量を決めるときに、先に分けたい4種類の音](docs/typing-sound-volume-calibration.md)
 - [メニューバーアプリを「ログイン時に起動」するか決めるチェックリスト](docs/launch-at-login-decision-guide.md)
@@ -74,10 +75,10 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
 
 ## Klakkで自分の環境を確認する
 
-インストール前に、[日本語サイトのブラウザデモ](https://tryklakk.com/ja/#demo)で14種類の音を試聴できます。実際の権限フローや出力デバイスとの組み合わせは、App Store版の3日間試用中に確認してください。
+インストール前に、[日本語サイトのブラウザデモ](https://tryklakk.com/ja/#demo)で14種類の音を試聴できます。実際の権限フローや出力デバイスとの組み合わせは、現在のMac App Storeに表示される利用条件を確認したうえで試してください。
 
 - [ブラウザで打鍵音を試聴](https://tryklakk.com/ja/#demo)
-- [App Storeで3日間試用](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-repo-permission-20260806&mt=12)
+- [Mac App Storeで現在の利用条件を確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-repo-permission-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 
