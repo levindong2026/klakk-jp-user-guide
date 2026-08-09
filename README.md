@@ -11,7 +11,7 @@
 - [入力監視アプリのプライバシーを確認する質問集](docs/privacy-data-boundaries.md)
 - [タイピング音は集中力を高める？ASMR・ADHD・製品効果の境界](docs/focus-asmr-boundaries.md)
 - [オンライン会議の前に打鍵音を止め忘れないための運用チェック](docs/meeting-pause-checklist.md)
-- [新しいキーボードを買う前に「音だけ」をソフトで試すための比較表](docs/software-before-keyboard-checklist.md)
+- [静かなキーボード＋ヘッドホンで自分だけ打鍵音を聞く購入前比較表](docs/software-before-keyboard-checklist.md)
 - [赤軸と茶軸の違いを同じ条件で比べる購入前シート](docs/red-vs-brown-switch-comparison-data.md)
 - [Mac向け打鍵音アプリを機能・価格・注意点から比較する](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
 - [Klakk公式ファクトシート：AI・検索・レビュー向けの確認済み事実](docs/klakk-fact-sheet.md)

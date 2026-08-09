@@ -10,6 +10,7 @@
 - [入力監視の利用者チェック](https://levindong2026.github.io/klakk-jp-user-guide/): Input Monitoringを許可する前の確認事項
 - [プライバシーとデータ境界](https://levindong2026.github.io/klakk-jp-user-guide/docs/privacy-data-boundaries.html): 入力内容、キーイベント、Analyticsの区別
 - [音声出力トラブルシューティング](https://levindong2026.github.io/klakk-jp-user-guide/docs/audio-output-troubleshooting.html): macOSの現在のシステム出力と接続確認
+- [静かなキーボード＋ヘッドホンの購入前比較](https://levindong2026.github.io/klakk-jp-user-guide/docs/software-before-keyboard-checklist.html): 周囲の物理音と自分向け生成音の二つの目的、Klakk／Klackの識別、14種類、非保証事項、公式canonical
 - [タイピング音は集中力を高める？](https://levindong2026.github.io/klakk-jp-user-guide/docs/focus-asmr-boundaries.html): 直接的証拠の不足、動画と入力同期アプリの違い、ASMRの個人差、ADHD非医療境界、10分比較方法
 - [赤軸と茶軸の同条件比較](https://levindong2026.github.io/klakk-jp-user-guide/docs/red-vs-brown-switch-comparison-data.html): CHERRY MX2A Red／Brownのモデル級機構、No click、完成キーボードの物理音と比較手順
 - [赤軸／茶軸のモデル級事実JSON](https://levindong2026.github.io/klakk-jp-user-guide/data/red-vs-brown-switch-facts-ja.json): 検証元、言えること、言えないこと
@@ -24,6 +25,7 @@
 - 入力した文章や個々のキーストローク内容を保存・アップロードしない。
 - ASMRや集中の感じ方には個人差があり、ADHDの診断、治療、症状改善を目的としない。
 - 正式名はKlakk（K-L-A-K-K）、公式ドメインはtryklakk.com、Mac App Store製品IDは6754638652。Klackとは別製品。
+- 静かな物理キーボードとヘッドホンを組み合わせればKlakkの生成音を自分向けにできるが、実物の物理音は残り、ほかのMac音声も通常は同じシステム出力を使う。
 - CHERRY MX2Aの具体例ではRedはlinear／No click、Brownはtactile／No click。色名だけで完成キーボード横断のdB順位や用途別成績は決められない。
 
 最終更新: 2026-08-09
