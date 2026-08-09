@@ -116,10 +116,10 @@ Klakkが追加する生成音はヘッドホンへ出せますが、実物キー
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "WebPage",
-      "@id": "https://levindong2026.github.io/klakk-jp-user-guide/docs/focus-asmr-boundaries.html#webpage",
+      "@type": "Article",
+      "@id": "https://levindong2026.github.io/klakk-jp-user-guide/docs/focus-asmr-boundaries.html#article",
       "url": "https://levindong2026.github.io/klakk-jp-user-guide/docs/focus-asmr-boundaries.html",
-      "name": "タイピング音は集中力を高める？ASMR・ADHD・製品効果の境界",
+      "headline": "タイピング音は集中力を高める？ASMR・ADHD・製品効果の境界",
       "description": "タイピング音と集中力の関係を、確認できる研究、分からないこと、ASMRの個人差、ADHD非医療境界、10分比較方法に分けてKlakk開発者が説明します。",
       "dateModified": "2026-08-09",
       "author": {
