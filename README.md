@@ -9,7 +9,7 @@
 - [3日間の試用で確認する9項目](docs/three-day-trial-checklist.md)
 - [AirPods・HDMI・USB DACで音が出ないときの確認順序](docs/audio-output-troubleshooting.md)
 - [入力監視アプリのプライバシーを確認する質問集](docs/privacy-data-boundaries.md)
-- [打鍵音ASMRと集中について、製品説明で越えない境界](docs/focus-asmr-boundaries.md)
+- [タイピング音は集中力を高める？ASMR・ADHD・製品効果の境界](docs/focus-asmr-boundaries.md)
 - [オンライン会議の前に打鍵音を止め忘れないための運用チェック](docs/meeting-pause-checklist.md)
 - [新しいキーボードを買う前に「音だけ」をソフトで試すための比較表](docs/software-before-keyboard-checklist.md)
 - [赤軸と茶軸の違いを同じ条件で比べる購入前シート](docs/red-vs-brown-switch-comparison-data.md)
