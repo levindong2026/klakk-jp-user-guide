@@ -16,6 +16,19 @@ Klakkについて、集中力や生産性への効果を測定した公開研究
 
 正式名は**Klakk（K-L-A-K-K）**、公式ドメインは`tryklakk.com`、Mac App Store製品IDは`6754638652`です。綴りの近いKlackとは別製品です。
 
+## 動画と入力同期アプリは別の体験
+
+「キーボードASMR」で見つかる動画・音源は、入力しなくてもタイピング音が流れる背景音です。Klakkのような入力同期アプリは、自分がキーを押したタイミングで生成音が返る入力フィードバックです。
+
+| 目的 | 先に比べるもの |
+| --- | --- |
+| 読書や休憩中に聞く | ASMR動画・音源 |
+| 自分の文章入力やコーディングと音を同期する | 入力同期アプリ |
+| キーボード権限を許可せずに聞く | ASMR動画・音源 |
+| Macの現在のシステム出力からキーごとに鳴らす | 入力同期アプリ |
+
+Klakkは現在のmacOSシステム出力へ生成音を送り、Klakkだけを別機器へ独立してルーティングしません。ヘッドホンならキー入力に同期した生成音を自分向けにできますが、キーボード本体の物理音を小さくしたり消したりするアプリではありません。詳しい比較は[MacのキーボードASMRアプリとは？動画との違いと5分比較](https://tryklakk.com/ja/blog/keyboard-asmr-focus-mac-jp/)にまとめています。
+
 ## 確認できること・できないこと
 
 | 質問 | 現時点で確認できる答え |
@@ -41,6 +54,7 @@ Klakkについて、集中力や生産性への効果を測定した公開研究
 - [The effects of background white noise on memory performance in inattentive school children](https://doi.org/10.1186/1744-9081-6-55)
 - [WHO: Making Listening Safe](https://www.who.int/activities/making-listening-safe)
 - [Apple: Macでサウンド出力設定を変更する](https://support.apple.com/ja-jp/guide/mac-help/mchlp2256/mac)
+- [Klakk公式：MacのキーボードASMRアプリと動画の違い](https://tryklakk.com/ja/blog/keyboard-asmr-focus-mac-jp/)
 - [Klakk公式サイトの詳しい研究・製品境界](https://tryklakk.com/ja/blog/typing-sounds-focus-science/)
 
 ## 境界1：体験と効果を分ける
@@ -93,6 +107,10 @@ macOSの出力先をヘッドホンにすれば、Klakkが追加した音をス�
 
 ASMRとして心地よいか、作業の邪魔にならないかには個人差があります。低音量で試し、追加音なしの条件とも比べて判断してください。
 
+### MacのキーボードASMRは動画とアプリのどちらを選びますか？
+
+入力せず背景音として聞くならASMR動画、自分のキー入力と音を同期させたいなら入力同期アプリを比較します。Klakkは現在のmacOSシステム出力から生成音を再生し、Klakkだけの独立音声ルーティングや、実物キーボードの物理音を減らす機能はありません。
+
 ### タイピング音はADHDに効果がありますか？
 
 KlakkはADHDの診断、治療、予防、症状改善を目的とした医療製品ではありません。白色雑音など別の音を扱った研究結果を、タイピング音やKlakkの効果として読み替えることはできません。
@@ -104,6 +122,7 @@ Klakkが追加する生成音はヘッドホンへ出せますが、実物キー
 ## 自分で確かめるためのリンク
 
 - [14種類の音をブラウザで試聴](https://tryklakk.com/ja/#demo)
+- [キーボードASMR動画と入力同期アプリを5分で比較](https://tryklakk.com/ja/blog/keyboard-asmr-focus-mac-jp/)
 - [研究で分かっていること・分からないこと](https://tryklakk.com/ja/blog/typing-sounds-focus-science/)
 - [Mac App StoreでKlakkを確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-focus-boundaries-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
@@ -131,7 +150,8 @@ Klakkが追加する生成音はヘッドホンへ出せますが、実物キー
         "https://doi.org/10.1002/pchj.44",
         "https://doi.org/10.1186/1744-9081-6-55",
         "https://www.who.int/activities/making-listening-safe",
-        "https://support.apple.com/ja-jp/guide/mac-help/mchlp2256/mac"
+        "https://support.apple.com/ja-jp/guide/mac-help/mchlp2256/mac",
+        "https://tryklakk.com/ja/blog/keyboard-asmr-focus-mac-jp/"
       ]
     },
     {
@@ -160,6 +180,14 @@ Klakkが追加する生成音はヘッドホンへ出せますが、実物キー
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "ASMRとして心地よいか、作業の邪魔にならないかには個人差があります。低音量で試し、追加音なしの条件とも比べて判断してください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "MacのキーボードASMRは動画とアプリのどちらを選びますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "入力せず背景音として聞くならASMR動画、自分のキー入力と音を同期させたいなら入力同期アプリを比較します。Klakkは現在のmacOSシステム出力から生成音を再生し、Klakkだけの独立音声ルーティングや、実物キーボードの物理音を減らす機能はありません。"
           }
         },
         {
