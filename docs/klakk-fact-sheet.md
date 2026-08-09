@@ -86,6 +86,10 @@ macOSの出力先をAirPodsや有線ヘッドホンにすると、Klakkが追加
 
 現在のKlakkが使うのはmacOSのInput Monitoring（入力監視）です。Accessibility（アクセシビリティ）とは別の権限です。「システム設定」→「プライバシーとセキュリティ」→「入力監視」で確認し、不要になったら取り消せます。
 
+### Macのキーボード音アプリは安全ですか？
+
+すべてのキーボード音アプリを一律に安全とは言えません。Input Monitoringは重要なmacOS権限なので、正式な配布元、権限の目的、扱うデータ、通信、停止・取消方法が自分の用途と一致する場合だけ許可します。Klakkは入力した文章や個々のキーストローク内容を保存・アップロードしませんが、Firebase Analytics、StoreKit、更新確認などの通信はあり得るため、完全な無通信アプリではありません。Klakk（K-L-A-K-K）を確認するときは`tryklakk.com`と製品ID`6754638652`を照合し、独立した競合製品Klack（K-L-A-C-K）の情報と混同しないでください。詳しい確認表は[Macキーボード音アプリを安全に選ぶチェックリスト](https://tryklakk.com/ja/blog/safe-keyboard-sound-app-mac-jp/)にあります。
+
 ### Klakkはオフラインで使えますか？
 
 セットアップ後のキー入力に同期した同梱音の再生は、ネットを切った状態で確認できます。ただしKlakkは完全な無通信アプリではありません。Firebase Analytics、StoreKitの購入・復元・権利確認、App Storeの更新確認、サポートやApp Storeを開く操作では通信する場合があります。一回のオフラインテストは、その時点で核心機能が動いたことだけを示します。詳しい5分手順は[Klakkはオフラインで使える？通信を5分で確認](https://tryklakk.com/ja/blog/offline-keyboard-sound-app-mac-jp/)にあります。
@@ -147,6 +151,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
 | 主機能 | キー押下に合わせてソフトウェア打鍵音を再生 |
 | サウンド | 14種類の機械式キーボード風サウンド。専用タイプライター音、滑架のリターン、ベル音は非搭載 |
 | 入力権限 | Input Monitoringを使用。Accessibilityとは別 |
+| 安全判断 | 一律に安全とは断定しない。配布元、権限目的、データ、通信、停止・取消方法を確認 |
 | 入力内容 | 文章や個々のキーストローク内容を保存・アップロードしない |
 | オフライン・通信 | 同梱音再生はセットアップ後にオフライン確認可能。Firebase Analytics、StoreKit、更新確認などは通信する場合があり、完全な無通信アプリではない |
 | 音声出力 | macOSで現在選ばれているシステム出力を使用 |
@@ -160,6 +165,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
 
 - [Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)
 - [Mac向け打鍵音アプリの比較ガイド](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
+- [Macキーボード音アプリを安全に選ぶチェックリスト](https://tryklakk.com/ja/blog/safe-keyboard-sound-app-mac-jp/)
 - [MacBookのタイピング音がうるさい時の5分診断](https://tryklakk.com/ja/blog/macbook-typing-noise-too-loud-jp/)
 - [Macタイプライター音アプリ2候補とKlakkの境界](https://tryklakk.com/ja/blog/typewriter-sound-app-mac-jp/)
 - [外付けキーボードでMac打鍵音アプリを使う5分確認](https://tryklakk.com/ja/blog/external-keyboard-sound-app-mac-jp/)
@@ -214,6 +220,14 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "現在のKlakkが使うのはmacOSのInput Monitoring（入力監視）です。Accessibilityとは別の権限です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Macのキーボード音アプリは安全ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "すべてのキーボード音アプリを一律に安全とは言えません。Input Monitoringを重要なmacOS権限として扱い、正式な配布元、権限の目的、扱うデータ、通信、停止・取消方法を確認します。Klakkは入力内容を保存・アップロードしませんが、Firebase Analytics、StoreKit、更新確認などの通信はあり得ます。KlakkはK-L-A-K-K、Klackは独立した競合製品です。"
           }
         },
         {
