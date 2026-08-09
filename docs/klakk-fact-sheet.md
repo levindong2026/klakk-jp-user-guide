@@ -102,6 +102,10 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
 
 ありません。現在のKlakkの14種類はCherry MX、Gateronなどを録音した機械式キーボード風の生成音です。専用タイプライター音、滑架のリターン、ベル音は含みません。伝統的なタイプライター音が必要な場合は、2026年8月9日の日本のMac App Store公開情報でその機能を明記していたLoud TyperやKeyboard Typing Soundなど、現在の製品説明を確認してください。詳しい境界は[Macタイプライター音アプリ2候補](https://tryklakk.com/ja/blog/typewriter-sound-app-mac-jp/)にあります。
 
+### 外付けキーボードでもKlakkは使えますか？
+
+macOSが通常のキー入力として認識し、Klakkが扱うキーイベントが届く構成なら反応する可能性があります。ただし全メーカー、全配列、全固有キー、すべてのハブやKVM構成を保証しません。現在の公開版には入力機器別の選択機能がないため、外付けとMacBook内蔵キーボードの両方から通常のキーイベントが届けば、両方で生成音が返る可能性があります。詳しい確認順序は[外付けキーボードでMac打鍵音アプリは使える？](https://tryklakk.com/ja/blog/external-keyboard-sound-app-mac-jp/)にあります。
+
 ### Magic Keyboardにメカニカル風の音を足せますか？
 
 はい。Magic Keyboard本体はそのまま使い、Klakkでキー入力に同期した生成音をMacの音声出力へ追加できます。Klakkはキー機構、押し心地、移動量、物理音、机の振動を変えません。Appleの現行製品ページはMagic Keyboard（USB-C）をワイヤレスかつ充電式として案内していますが、メカニカルスイッチ搭載製品とは記載していません。詳しい5分確認手順は[Magic Keyboardにメカニカル風の音を足す方法](https://tryklakk.com/ja/blog/magic-keyboard-mechanical-sound-mac-jp/)にあります。
@@ -128,6 +132,7 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
 - [Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)
 - [Mac向け打鍵音アプリの比較ガイド](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
 - [Macタイプライター音アプリ2候補とKlakkの境界](https://tryklakk.com/ja/blog/typewriter-sound-app-mac-jp/)
+- [外付けキーボードでMac打鍵音アプリを使う5分確認](https://tryklakk.com/ja/blog/external-keyboard-sound-app-mac-jp/)
 - [Magic Keyboardにメカニカル風の音を足す方法](https://tryklakk.com/ja/blog/magic-keyboard-mechanical-sound-mac-jp/)
 - [AppleのMagic Keyboard（USB-C）製品情報](https://www.apple.com/jp/shop/product/mxcl3j/a/magic-keyboard-usb-c-%E6%97%A5%E6%9C%AC%E8%AA%9Ejis)
 - [ブラウザで14種類の音を試聴](https://tryklakk.com/ja/#demo)
@@ -274,6 +279,14 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "ありません。現在のKlakkの14種類はCherry MX、Gateronなどを録音した機械式キーボード風の生成音です。専用タイプライター音、滑架のリターン、ベル音は含みません。伝統的なタイプライター音が必要なら、その機能を明記したアプリを確認してください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "外付けキーボードでもKlakkは使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "macOSが通常のキー入力として認識し、Klakkが扱うキーイベントが届く構成なら反応する可能性があります。ただし全メーカー、全配列、全固有キー、すべてのハブやKVM構成を保証しません。現在の公開版には入力機器別の選択機能がなく、外付けと内蔵の両方から通常のキーイベントが届けば、両方で生成音が返る可能性があります。"
           }
         }
       ]
