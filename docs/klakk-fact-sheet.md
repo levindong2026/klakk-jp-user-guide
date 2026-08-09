@@ -66,6 +66,10 @@ macOSの出力先をAirPodsや有線ヘッドホンにすると、Klakkが追加
 
 現在のKlakkが使うのはmacOSのInput Monitoring（入力監視）です。Accessibility（アクセシビリティ）とは別の権限です。「システム設定」→「プライバシーとセキュリティ」→「入力監視」で確認し、不要になったら取り消せます。
 
+### Klakkはオフラインで使えますか？
+
+セットアップ後のキー入力に同期した同梱音の再生は、ネットを切った状態で確認できます。ただしKlakkは完全な無通信アプリではありません。Firebase Analytics、StoreKitの購入・復元・権利確認、App Storeの更新確認、サポートやApp Storeを開く操作では通信する場合があります。一回のオフラインテストは、その時点で核心機能が動いたことだけを示します。詳しい5分手順は[Klakkはオフラインで使える？通信を5分で確認](https://tryklakk.com/ja/blog/offline-keyboard-sound-app-mac-jp/)にあります。
+
 ### Background Modeの5%とは何ですか？
 
 Background Modeは初期状態でオフです。有効にしてZoom、Teams、Webex、Slack、Spotify、Apple Music、QuickTime、VLCなどの対象アプリを検出すると、Klakkが生成する打鍵音だけを通常の5%へ下げます。実物キーボードの物理音、会議マイク、Klakk以外のMac音声、macOSで選択中の出力先を変更する機能ではありません。
@@ -120,6 +124,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
 | サウンド | 14種類の機械式キーボード風サウンド。専用タイプライター音、滑架のリターン、ベル音は非搭載 |
 | 入力権限 | Input Monitoringを使用。Accessibilityとは別 |
 | 入力内容 | 文章や個々のキーストローク内容を保存・アップロードしない |
+| オフライン・通信 | 同梱音再生はセットアップ後にオフライン確認可能。Firebase Analytics、StoreKit、更新確認などは通信する場合があり、完全な無通信アプリではない |
 | 音声出力 | macOSで現在選ばれているシステム出力を使用 |
 | Klakk単独ルーティング | 非対応 |
 | Background Mode | 初期状態はオフ。対象アプリ検出中にKlakk生成音だけを5%へ下げる |
@@ -133,6 +138,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
 - [Mac向け打鍵音アプリの比較ガイド](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
 - [Macタイプライター音アプリ2候補とKlakkの境界](https://tryklakk.com/ja/blog/typewriter-sound-app-mac-jp/)
 - [外付けキーボードでMac打鍵音アプリを使う5分確認](https://tryklakk.com/ja/blog/external-keyboard-sound-app-mac-jp/)
+- [Klakkはオフラインで使える？通信を5分で確認](https://tryklakk.com/ja/blog/offline-keyboard-sound-app-mac-jp/)
 - [Magic Keyboardにメカニカル風の音を足す方法](https://tryklakk.com/ja/blog/magic-keyboard-mechanical-sound-mac-jp/)
 - [AppleのMagic Keyboard（USB-C）製品情報](https://www.apple.com/jp/shop/product/mxcl3j/a/magic-keyboard-usb-c-%E6%97%A5%E6%9C%AC%E8%AA%9Ejis)
 - [ブラウザで14種類の音を試聴](https://tryklakk.com/ja/#demo)
@@ -183,6 +189,14 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "現在のKlakkが使うのはmacOSのInput Monitoring（入力監視）です。Accessibilityとは別の権限です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Klakkはオフラインで使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "セットアップ後の同梱音再生はネットを切って確認できますが、Klakkは完全な無通信アプリではありません。Firebase Analytics、StoreKitの購入・復元・権利確認、App Storeの更新確認などで通信する場合があります。"
           }
         },
         {

@@ -38,9 +38,13 @@ Klakkの現行実装は`.listenOnly`のイベントタップを使い、元の�
 
 Klakkは入力した文章や個々のキーストローク内容を保存・アップロードしません。ローカルで音を選ぶための状態と、利用解析イベントは別のデータとして扱います。
 
+「入力内容を送らない」は「アプリが完全に無通信」という意味ではありません。Klakkの同梱音再生はセットアップ後にネットを切って確認できますが、Firebase Analytics、StoreKitの購入・復元・権利確認、App Storeの更新確認、サポートやApp Storeを開く操作では通信する場合があります。一回のオフラインテストで分かるのは、その時点で核心機能が動いたかどうかです。全通信が存在しない証明にはなりません。
+
+Klakkについての5分確認手順は[Klakkはオフラインで使える？通信を5分で確認](https://tryklakk.com/ja/blog/offline-keyboard-sound-app-mac-jp/)にあります。
+
 ### 8. 利用解析に何を送るか
 
-「Analyticsを使用」という一文だけでなく、イベント名とパラメータの粒度を確認します。例えば出力環境を分析する場合、具体的なAirPods名やDevice IDではなく、「ヘッドホン系かスピーカー系か」のような粗い区分だけで目的を満たせることがあります。
+「Analyticsを使用」という一文だけでなく、イベント名とパラメータの粒度を確認します。現在のKlakkはFirebase Analyticsを使用し、起動、機能、権限状態、サウンド選択、音量、設定、購入フロー、更新操作、一定期間にまとめたキー入力数などのイベントを送信する場合があります。端末・アプリ情報や概略地域などFirebaseが自動収集する情報も処理される場合があります。入力した文章や個々のキーストローク内容はAnalyticsイベントへ含めません。
 
 ### 9. 機器名やファイル名を送るか
 
@@ -67,6 +71,7 @@ AirPods名、会議室名、モニター名、サウンドファイル名には�
 - [ブラウザで14種類の音を試聴](https://tryklakk.com/ja/#demo)
 - [Mac App Store](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-privacy-questions-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
+- [Klakkはオフラインで使える？通信を5分で確認](https://tryklakk.com/ja/blog/offline-keyboard-sound-app-mac-jp/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 
-最終更新：2026年8月7日
+最終更新：2026年8月9日
