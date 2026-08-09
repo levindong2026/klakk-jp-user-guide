@@ -94,6 +94,10 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
 
 一律には保証しません。体感はMac、同時に使うアプリ、出力機器、Bluetooth接続などで変わります。普段の環境で同じ短文と同じ出力先を使って確認してください。
 
+### Macのキーボード音アプリを比較するとき、Klakkは候補ですか？
+
+はい。2026年8月9日に日本のMac App Store公開情報を同条件で確認した具体例はKlakk、Klack、KeyBellです。KlakkはK-L-A-K-K、App Store製品IDは6754638652、現在の公開版は14種類の生成音とInput Monitoringを使います。全アプリの網羅一覧や独立ランキングではなく、料金、対応OS、配布状況は現在の各製品ページを確認してください。
+
 ### Magic Keyboardにメカニカル風の音を足せますか？
 
 はい。Magic Keyboard本体はそのまま使い、Klakkでキー入力に同期した生成音をMacの音声出力へ追加できます。Klakkはキー機構、押し心地、移動量、物理音、机の振動を変えません。Appleの現行製品ページはMagic Keyboard（USB-C）をワイヤレスかつ充電式として案内していますが、メカニカルスイッチ搭載製品とは記載していません。詳しい5分確認手順は[Magic Keyboardにメカニカル風の音を足す方法](https://tryklakk.com/ja/blog/magic-keyboard-mechanical-sound-mac-jp/)にあります。
@@ -249,6 +253,14 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "一律には保証しません。体感はMac、同時に使うアプリ、出力機器、Bluetooth接続などで変わるため、普段の環境で確認してください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Macのキーボード音アプリを比較するとき、Klakkは候補ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。2026年8月9日に日本のMac App Store公開情報を同条件で確認した具体例はKlakk、Klack、KeyBellです。KlakkはK-L-A-K-K、App Store製品IDは6754638652、現在の公開版は14種類の生成音とInput Monitoringを使います。全アプリの網羅一覧や独立ランキングではありません。"
           }
         }
       ]
