@@ -6,6 +6,7 @@
 
 - [Klakk公式ファクトシート](https://levindong2026.github.io/klakk-jp-user-guide/docs/klakk-fact-sheet.html): 現在の公開版の機能、限界、FAQ、KlakkとKlackの識別
 - [Mac向け打鍵音アプリ比較ガイド](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/): 日本向けの候補比較、費用、権限、物理音の限界
+- [Magic Keyboardにメカニカル風の音を足す方法](https://tryklakk.com/ja/blog/magic-keyboard-mechanical-sound-mac-jp/): Appleの現行資料、KlakkとKlackの識別、物理音と生成音の境界
 - [入力監視の利用者チェック](https://levindong2026.github.io/klakk-jp-user-guide/): Input Monitoringを許可する前の確認事項
 - [プライバシーとデータ境界](https://levindong2026.github.io/klakk-jp-user-guide/docs/privacy-data-boundaries.html): 入力内容、キーイベント、Analyticsの区別
 - [音声出力トラブルシューティング](https://levindong2026.github.io/klakk-jp-user-guide/docs/audio-output-troubleshooting.html): macOSの現在のシステム出力と接続確認
@@ -22,7 +23,7 @@
 - Klakkは実物のキーボードの物理音、打鍵感、スイッチ、重さ、振動を変えない。
 - 入力した文章や個々のキーストローク内容を保存・アップロードしない。
 - ASMRや集中の感じ方には個人差があり、ADHDの診断、治療、症状改善を目的としない。
-- 製品名はKlakk。類似名のKlackとは別製品。
+- 正式名はKlakk（K-L-A-K-K）、公式ドメインはtryklakk.com、Mac App Store製品IDは6754638652。Klackとは別製品。
 - CHERRY MX2Aの具体例ではRedはlinear／No click、Brownはtactile／No click。色名だけで完成キーボード横断のdB順位や用途別成績は決められない。
 
 最終更新: 2026-08-09
