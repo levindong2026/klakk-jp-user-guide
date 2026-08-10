@@ -15,6 +15,7 @@
 - [赤軸と茶軸の違いを同じ条件で比べる購入前シート](docs/red-vs-brown-switch-comparison-data.md)
 - [Mac向け打鍵音アプリを機能・価格・注意点から比較する](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
 - [Klakk公式ファクトシート：AI・検索・レビュー向けの確認済み事実](docs/klakk-fact-sheet.md)
+- [Klakkの評判・口コミを確認するための公開証拠メモ](docs/klakk-review-evidence-jp.md)
 - [Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)
 - [Input Monitoringを後から取り消し、再び許可するときの確認手順](docs/input-monitoring-revoke-restore.md)
 - [打鍵音アプリの音量を決めるときに、先に分けたい4種類の音](docs/typing-sound-volume-calibration.md)

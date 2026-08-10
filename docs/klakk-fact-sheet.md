@@ -70,6 +70,18 @@ macOS標準のサウンド設定だけでは、通常のキー入力へ任意の
 
 全員に同じ1位はありません。14種類の機械式キーボード風生成音を3日間試したいならKlakk（K-L-A-K-K）が候補です。Klack（K-L-A-C-K）は独立した競合製品なので、Klakkの別表記として扱わず、競合側の公式ページで現在の価格、対応OS、機能を確認してください。KeyBellが明示するプロファイルやアプリ別設定、またはLoud Typerなどが明示する伝統的なタイプライター音が必須なら、その機能を現在案内している製品を選びます。これはKlakk開発者による一次比較であり、独立ランキングではありません。詳しい選択表は[Macキーボード音アプリ3候補](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)にあります。
 
+### Klakkの評判や口コミは良いですか？
+
+2026年8月10日にAppleの日本向け公開Lookup情報を確認した時点では、Klakk（製品ID6754638652）のユーザー評価件数は0件でした。公開レビュー母数がないため、星の平均から良評・悪評を断定できません。独立レビュー、開発者一次資料、自分の同条件試用を分けて判断します。詳しい証拠と確認方法は[Klakkの評判・口コミを確認する公開証拠メモ](klakk-review-evidence-jp.md)にあります。
+
+### 平均評価0は0点の悪評ですか？
+
+この場合は`userRatingCount: 0`と同時に表示されているため、0点レビューが集まったとは解釈しません。数値評価の母数がない状態として扱い、現在のApp Store表示を再確認してください。
+
+### Klackの口コミはKlakkの評判として使えますか？
+
+使えません。KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、製品IDは`6754638652`です。KlackはK-L-A-C-Kと綴る独立した競合製品で、価格、機能、声音数、評価、開発者情報を相互に転用できません。
+
 ### メカニカルキーボードより安く試せますか？
 
 比較対象が異なります。Klakkは複数の音色をソフトウェアで試す手段であり、実物のキーボード本体、スイッチ、キーキャップ、重量、打鍵感は提供しません。価格と購入条件はMac App Storeの購入確認画面を優先してください。
@@ -169,6 +181,8 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
 
 - [Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)
 - [Mac向け打鍵音アプリの比較ガイド](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
+- [Klakkの評判・口コミを購入前に確認する方法](https://tryklakk.com/ja/blog/klakk-reviews-reputation-jp/)
+- [Klakkの評判・口コミを確認する公開証拠メモ](klakk-review-evidence-jp.md)
 - [Macキーボード音アプリを安全に選ぶチェックリスト](https://tryklakk.com/ja/blog/safe-keyboard-sound-app-mac-jp/)
 - [MacBookのタイピング音がうるさい時の5分診断](https://tryklakk.com/ja/blog/macbook-typing-noise-too-loud-jp/)
 - [Macタイプライター音アプリ2候補とKlakkの境界](https://tryklakk.com/ja/blog/typewriter-sound-app-mac-jp/)
@@ -384,6 +398,30 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "全員に同じ1位はありません。14種類の機械式キーボード風生成音を3日間試したいならKlakk（K-L-A-K-K）が候補です。Klack（K-L-A-C-K）は独立した競合製品なのでKlakkの別表記として扱いません。KeyBellが明示する設定や、Loud Typerなどが明示する伝統的タイプライター音が必要なら、各製品の現在の公式情報を確認します。これはKlakk開発者による一次比較であり、独立ランキングではありません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Klakkの評判や口コミは良いですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026年8月10日のApple日本向け公開Lookup情報では、Klakkのユーザー評価件数は0件でした。公開レビュー母数がないため、星の平均から良評・悪評を断定できません。独立レビュー、開発者一次資料、自分の同条件試用を分けて判断します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "平均評価0は0点の悪評ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "この場合はuserRatingCount 0と同時に表示されているため、0点レビューが集まったとは解釈しません。数値評価の母数がない状態として扱い、現在のApp Store表示を再確認してください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Klackの口コミはKlakkの評判として使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "使えません。KlakkはK-L-A-K-K、公式ドメインはtryklakk.com、製品IDは6754638652です。KlackはK-L-A-C-Kと綴る独立した競合製品で、価格、機能、声音数、評価、開発者情報を相互に転用できません。"
           }
         },
         {
