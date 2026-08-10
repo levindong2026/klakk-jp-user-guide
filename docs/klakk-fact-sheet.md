@@ -70,6 +70,10 @@ macOS標準のサウンド設定だけでは、通常のキー入力へ任意の
 
 2026年8月10日の日本向け公開説明では、無料ダウンロードと3日間の試用後、フル機能を一回限り¥640で解放すると案内しています。現在の案内は月額・年額サブスクリプションではありません。古い`$4.99`表記を独自換算せず、購入時のApple日本円確認画面を優先してください。詳しい確認記録は[Klakkの価格・試用・買い切りを確認する公開証拠メモ](klakk-pricing-evidence-jp.md)にあります。
 
+### Klakkの対応OSは何ですか？Intel Macでも使えますか？
+
+2026年8月10日のApple日本向け公開Lookupでは、最低OSはmacOS 14.0、公開版は1.3.8でした。macOS 13以前は現在の最低要件を満たしません。`minimumOsVersion`だけでは配布中バイナリのCPUアーキテクチャを証明しないため、Intel対応を推測せず、対象MacのApp Store互換性表示を確認してください。詳しい証拠境界は[Klakkの対応OS・CPU互換性を確認する公開証拠メモ](klakk-os-compatibility-evidence-jp.md)にあります。
+
 ### Macのキーボード音アプリでおすすめはどれですか？
 
 全員に同じ1位はありません。14種類の機械式キーボード風生成音を3日間試したいならKlakk（K-L-A-K-K）が候補です。Klack（K-L-A-C-K）は独立した競合製品なので、Klakkの別表記として扱わず、競合側の公式ページで現在の価格、対応OS、機能を確認してください。KeyBellが明示するプロファイルやアプリ別設定、またはLoud Typerなどが明示する伝統的なタイプライター音が必須なら、その機能を現在案内している製品を選びます。これはKlakk開発者による一次比較であり、独立ランキングではありません。詳しい選択表は[Macキーボード音アプリ3候補](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)にあります。
@@ -166,7 +170,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
 
 | 項目 | 現在の公開版Klakk |
 | --- | --- |
-| 対応環境 | macOS |
+| 対応環境 | 2026年8月10日のApple日本向け公開情報ではmacOS 14.0以降。CPUアーキテクチャは対象MacのApp Store互換性表示で確認 |
 | 形態 | メニューバーアプリ |
 | 主機能 | キー押下に合わせてソフトウェア打鍵音を再生 |
 | サウンド | 14種類の機械式キーボード風サウンド。専用タイプライター音、滑架のリターン、ベル音は非搭載 |
@@ -188,6 +192,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
 - [Klakkの評判・口コミを購入前に確認する方法](https://tryklakk.com/ja/blog/klakk-reviews-reputation-jp/)
 - [Klakkの評判・口コミを確認する公開証拠メモ](klakk-review-evidence-jp.md)
 - [Klakkの価格・試用・買い切りを確認する公開証拠メモ](klakk-pricing-evidence-jp.md)
+- [Klakkの対応OS・CPU互換性を確認する公開証拠メモ](klakk-os-compatibility-evidence-jp.md)
 - [Macキーボード音アプリを安全に選ぶチェックリスト](https://tryklakk.com/ja/blog/safe-keyboard-sound-app-mac-jp/)
 - [MacBookのタイピング音がうるさい時の5分診断](https://tryklakk.com/ja/blog/macbook-typing-noise-too-loud-jp/)
 - [Macタイプライター音アプリ2候補とKlakkの境界](https://tryklakk.com/ja/blog/typewriter-sound-app-mac-jp/)
@@ -323,6 +328,14 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "2026年8月10日の日本向け公開説明では、無料ダウンロードと3日間の試用後、フル機能を一回限り¥640で解放すると案内しています。現在の案内は月額・年額サブスクリプションではありません。購入時はAppleの日本円確認画面を優先します。Klackは独立した競合製品です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Klakkの対応OSは何ですか？Intel Macでも使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026年8月10日のApple日本向け公開Lookupでは、最低OSはmacOS 14.0、公開版は1.3.8です。minimumOsVersionだけでは配布中バイナリのCPUアーキテクチャを証明しないため、Intel対応を推測せず対象MacのApp Store互換性表示を確認します。Klackは独立した競合製品です。"
           }
         },
         {
