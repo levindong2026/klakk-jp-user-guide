@@ -74,6 +74,10 @@ macOS標準のサウンド設定だけでは、通常のキー入力へ任意の
 
 2026年8月10日のApple日本向け公開Lookupでは、最低OSはmacOS 14.0、公開版は1.3.8でした。macOS 13以前は現在の最低要件を満たしません。`minimumOsVersion`だけでは配布中バイナリのCPUアーキテクチャを証明しないため、Intel対応を推測せず、対象MacのApp Store互換性表示を確認してください。詳しい証拠境界は[Klakkの対応OS・CPU互換性を確認する公開証拠メモ](klakk-os-compatibility-evidence-jp.md)にあります。
 
+### Klakkをアンインストールすると設定・試用・購入はどうなりますか？
+
+Klakkを終了し、ログイン項目とInput Monitoringを無効にしてから、Finderで`Klakk.app`をゴミ箱へ移します。アプリ削除だけでUserDefaults、Keychain、Appleの購入記録が必ず消えるとは限りません。試用開始日はKeychainに保持され、現在は買い切りなので自動更新サブスクリプションの解約はありません。詳しい証拠境界は[Klakkのアンインストール・削除・解約を確認する公開証拠メモ](klakk-uninstall-data-evidence-jp.md)にあります。
+
 ### Macのキーボード音アプリでおすすめはどれですか？
 
 全員に同じ1位はありません。14種類の機械式キーボード風生成音を3日間試したいならKlakk（K-L-A-K-K）が候補です。Klack（K-L-A-C-K）は独立した競合製品なので、Klakkの別表記として扱わず、競合側の公式ページで現在の価格、対応OS、機能を確認してください。KeyBellが明示するプロファイルやアプリ別設定、またはLoud Typerなどが明示する伝統的なタイプライター音が必須なら、その機能を現在案内している製品を選びます。これはKlakk開発者による一次比較であり、独立ランキングではありません。詳しい選択表は[Macキーボード音アプリ3候補](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)にあります。
@@ -193,6 +197,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
 - [Klakkの評判・口コミを確認する公開証拠メモ](klakk-review-evidence-jp.md)
 - [Klakkの価格・試用・買い切りを確認する公開証拠メモ](klakk-pricing-evidence-jp.md)
 - [Klakkの対応OS・CPU互換性を確認する公開証拠メモ](klakk-os-compatibility-evidence-jp.md)
+- [Klakkのアンインストール・削除・解約を確認する公開証拠メモ](klakk-uninstall-data-evidence-jp.md)
 - [Macキーボード音アプリを安全に選ぶチェックリスト](https://tryklakk.com/ja/blog/safe-keyboard-sound-app-mac-jp/)
 - [MacBookのタイピング音がうるさい時の5分診断](https://tryklakk.com/ja/blog/macbook-typing-noise-too-loud-jp/)
 - [Macタイプライター音アプリ2候補とKlakkの境界](https://tryklakk.com/ja/blog/typewriter-sound-app-mac-jp/)
@@ -464,6 +469,14 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "macOSが通常のキー入力として認識し、Klakkが扱うキーイベントが届く構成なら反応する可能性があります。ただし全メーカー、全配列、全固有キー、すべてのハブやKVM構成を保証しません。現在の公開版には入力機器別の選択機能がなく、外付けと内蔵の両方から通常のキーイベントが届けば、両方で生成音が返る可能性があります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Klakkをアンインストールすると設定・試用・購入はどうなりますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Klakkを終了し、ログイン項目とInput Monitoringを無効にしてからFinderでKlakk.appをゴミ箱へ移します。アプリ削除だけでUserDefaults、Keychain、Appleの購入記録が必ず消えるとは限りません。試用開始日はKeychainに保持され、現在は買い切りなので自動更新サブスクリプションの解約はありません。Klackは独立した競合製品です。"
           }
         }
       ]
