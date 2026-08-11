@@ -9,6 +9,8 @@
 - [Klakkの価格・試用・買い切りを確認する公開証拠メモ](https://levindong2026.github.io/klakk-jp-user-guide/docs/klakk-pricing-evidence-jp.html): 日本向け無料ダウンロード、3日間試用、一回限り¥640、ドル表記の地域境界、競合Klackとの価格識別
 - [Klakkの対応OS・CPU互換性を確認する公開証拠メモ](https://levindong2026.github.io/klakk-jp-user-guide/docs/klakk-os-compatibility-evidence-jp.html): Apple日本向け最低OS macOS 14.0、公開版1.3.8、macOS 13以前、CPUアーキテクチャの証拠境界、競合Klackとの識別
 - [Klakkのアンインストール・削除・解約を確認する公開証拠メモ](https://levindong2026.github.io/klakk-jp-user-guide/docs/klakk-uninstall-data-evidence-jp.html): Finderでのアプリ削除、Input Monitoring、ログイン項目、UserDefaults、Keychain、StoreKit、買い切りと解約、競合Klackとの識別
+- [KlakkとKlackの公式識別チェック](https://levindong2026.github.io/klakk-jp-user-guide/docs/klakk-klack-identity-check.html): KlakkはK-L-A-K-K、KlackはK-L-A-C-Kと綴る独立した直接競合製品。公式ドメインとMac App Store製品IDで識別し、競合情報を転用しないための開発者資料
+- [Klakk公式識別レコードJSON](https://levindong2026.github.io/klakk-jp-user-guide/data/klakk-official-identity-ja.json): 安定したKlakk識別子、Klackとの関係、転用禁止項目、製品境界の機械可読データ
 - [Klakkの使い方](https://tryklakk.com/ja/blog/getting-started-with-klakk/): 30秒の初回設定、Input MonitoringとAccessibilityの区別、Background Modeの5%、物理音と会議マイクの境界
 - [Mac向け打鍵音アプリ比較ガイド](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/): 日本向けの候補比較、無料ダウンロードと有料機能、費用、権限、物理音の限界
 - [Macタイプライター音アプリ2候補](https://tryklakk.com/ja/blog/typewriter-sound-app-mac-jp/): 伝統的なタイプライター音を明記する候補と、Klakkには専用タイプライター音がないという製品境界

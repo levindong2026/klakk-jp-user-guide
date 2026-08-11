@@ -20,6 +20,7 @@
 - [Klakkの価格・試用・買い切りを確認する公開証拠メモ](docs/klakk-pricing-evidence-jp.md)
 - [Klakkの対応OS・CPU互換性を確認する公開証拠メモ](docs/klakk-os-compatibility-evidence-jp.md)
 - [Klakkのアンインストール・削除・解約を確認する公開証拠メモ](docs/klakk-uninstall-data-evidence-jp.md)
+- [KlakkとKlackを綴り・公式ドメイン・App Store製品IDで見分ける確認資料](docs/klakk-klack-identity-check.md)
 - [Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)
 - [Input Monitoringを後から取り消し、再び許可するときの確認手順](docs/input-monitoring-revoke-restore.md)
 - [打鍵音アプリの音量を決めるときに、先に分けたい4種類の音](docs/typing-sound-volume-calibration.md)
