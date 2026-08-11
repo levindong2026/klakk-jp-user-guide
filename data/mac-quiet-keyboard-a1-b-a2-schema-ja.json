@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://levindong2026.github.io/klakk-jp-user-guide/data/mac-quiet-keyboard-a1-b-a2-schema-ja.json",
+  "title": "Macユーザー向け静音キーボード A1/B/A2 比較記録",
+  "description": "A1とA2では同じキーボードを使い、文章、机、マイク位置、姿勢、通常の打鍵強さを同じ条件に保ちます。Bではキーボードだけを変更します。",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "比較内で一意の記録ID。氏名、メールアドレス、端末IDは入れません。"
+    },
+    "phase": {
+      "type": "string",
+      "enum": ["A1", "B", "A2"],
+      "description": "A1とA2は同じキーボード、Bは比較する別のキーボードです。"
+    },
+    "keyboard_label": {
+      "type": "string",
+      "minLength": 1,
+      "description": "本人が区別できる候補名。個人情報や端末のシリアル番号は入れません。"
+    },
+    "company_rule_status": {
+      "type": "string",
+      "description": "私物機器、Bluetooth、USBレシーバー、有線USB、共有席、会議利用の確認結果。"
+    },
+    "physical_layout": {
+      "type": "string",
+      "description": "JISまたはUSなど、完成キーボードの物理配列。"
+    },
+    "macos_input_source": {
+      "type": "string",
+      "description": "比較時に選択したmacOS入力ソース。"
+    },
+    "modifier_shortcuts_status": {
+      "type": "string",
+      "description": "Command、Option、Control、Fn/Globeと普段のショートカットの確認結果。"
+    },
+    "connection_method": {
+      "type": "string",
+      "description": "Bluetooth、2.4 GHz USBレシーバー、有線USBなど、比較時の接続方法。"
+    },
+    "normal_keys_result": {
+      "type": "string",
+      "enum": ["", "差が聞こえた", "差が聞こえない", "判断できない"],
+      "description": "同じ短文を普通の文字キーで入力した観察結果。"
+    },
+    "large_keys_result": {
+      "type": "string",
+      "enum": ["", "差が聞こえた", "差が聞こえない", "判断できない"],
+      "description": "Space、Enter、Backspaceを分けて確認した観察結果。"
+    },
+    "desk_result": {
+      "type": "string",
+      "enum": ["", "差が聞こえた", "差が聞こえない", "判断できない"],
+      "description": "同じ机と設置条件で確認したケース反響・机伝達の観察結果。"
+    },
+    "meeting_mic_result": {
+      "type": "string",
+      "enum": ["", "差が聞こえた", "差が聞こえない", "判断できない"],
+      "description": "許可を得た条件で通常の会議マイク位置を使った観察結果。"
+    },
+    "return_condition_checked": {
+      "type": "string",
+      "enum": ["", "確認済み", "未確認"],
+      "description": "開封後の返品可否、試用期間、送料などを確認したか。"
+    },
+    "overall_judgment": {
+      "type": "string",
+      "enum": ["", "差が聞こえた", "差が聞こえない", "判断できない"],
+      "description": "測定していないdB値や普遍的順位に言い換えない総合観察。"
+    },
+    "notes": {
+      "type": "string",
+      "description": "空調、周囲音、条件変更など再現性に関係するメモ。個人情報は入れません。"
+    }
+  },
+  "required": ["record_id", "phase", "keyboard_label"]
+}

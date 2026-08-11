@@ -1,0 +1,4 @@
+record_id,phase,keyboard_label,company_rule_status,physical_layout,macos_input_source,modifier_shortcuts_status,connection_method,normal_keys_result,large_keys_result,desk_result,meeting_mic_result,return_condition_checked,overall_judgment,notes
+a1,A1,,,,,,,,,,,,,
+b,B,,,,,,,,,,,,,
+a2,A2,,,,,,,,,,,,,
