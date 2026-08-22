@@ -1,6 +1,6 @@
 # USB DACを抜き差しした後に打鍵音が出ないときの7項目
 
-> 本稿は有料macOSアプリ「Klakk」の開発者が作成した公開ガイドです。自社製品へのリンクを含みます。
+> 本稿は有料機能を含むmacOSアプリ「Klakk」の開発者が作成した公開ガイドです。自社製品へのリンクを含みます。
 
 USB DAC、オーディオインターフェース、USBスピーカーを抜き差しした後は、機器名が同じでもmacOS内部の接続状態が更新されます。Klakkの音が出ないときは、次の順番で確認します。
 
@@ -39,7 +39,7 @@ KlakkはInput Monitoring権限を使い、キーが押されたタイミング�
 ソフトウェアが変えるのはMacから追加する音です。実物のキーボードの物理音、スイッチ、重さ、打鍵感は変えません。集中やASMRの感じ方には個人差があり、ADHDを含む症状の診断、治療、改善を目的とした医療製品ではありません。
 
 - [14種類の音をブラウザで試聴](https://tryklakk.com/ja/#demo)
-- [Mac App Storeで試す](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-usb-dac-reconnect-20260806&mt=12)
+- [Mac App Storeで現在の利用条件を確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-usb-dac-reconnect-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 

@@ -1,6 +1,6 @@
 # 打鍵音アプリの比較動画を録る前に、録音経路を確認する6ステップ
 
-> 本稿は有料macOSアプリ「Klakk」の開発者が作成した公開ガイドです。自社製品へのリンクを含みます。
+> 本稿は有料機能を含むmacOSアプリ「Klakk」の開発者が作成した公開ガイドです。自社製品へのリンクを含みます。
 
 「Klakkなし」と「Klakkあり」を比較する動画では、聞こえた差がアプリの追加音なのか、実物のキーボード音なのかを説明できるようにします。録画ソフトの設定によっては、システム音を録らずマイク音だけを収録するためです。
 
@@ -41,7 +41,7 @@ macOSの出力先をヘッドホンにすれば、Klakkの追加音を周囲へ�
 Klakkは実物のキーボードの物理音、スイッチ、重さ、打鍵感を変えません。ASMRや集中の感じ方には個人差があり、ADHDを含む症状を診断、治療、改善する医療製品ではありません。
 
 - [14種類の音をブラウザで試聴](https://tryklakk.com/ja/#demo)
-- [Mac App Storeで試す](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-screen-recording-demo-20260806&mt=12)
+- [Mac App Storeで現在の利用条件を確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-screen-recording-demo-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 

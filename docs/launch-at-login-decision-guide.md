@@ -1,6 +1,6 @@
 # Macのメニューバーアプリを「ログイン時に起動」するか決めるチェックリスト
 
-> 本稿は有料macOSアプリ「Klakk」の開発者が、現行のログイン項目実装をもとに作成した利用ガイドです。自社製品へのリンクを含みます。
+> 本稿は有料機能を含むmacOSアプリ「Klakk」の開発者が、現行のログイン項目実装をもとに作成した利用ガイドです。自社製品へのリンクを含みます。
 
 メニューバーアプリは、Macへログインした直後から使えると便利です。一方で、たまにしか使わないアプリまで毎回起動すると、何が常駐しているのか分かりにくくなります。
 
@@ -112,7 +112,7 @@ Klakkが変えるのはMacから追加して再生する音です。実物のキ
 ## 試聴と確認リンク
 
 - [14種類の音をブラウザで試聴](https://tryklakk.com/ja/#demo)
-- [Mac App Storeで試す](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-launch-at-login-guide-20260806&mt=12)
+- [Mac App Storeで現在の利用条件を確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-launch-at-login-guide-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 

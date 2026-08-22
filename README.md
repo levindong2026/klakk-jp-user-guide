@@ -1,12 +1,12 @@
 # macOSでInput Monitoringを許可する前の利用者チェックリスト
 
-> この文書は、有料macOSアプリ「Klakk」の開発者が作成した公開ガイドです。特定製品の宣伝だけでなく、グローバルなキーイベントを利用するアプリを確認するときの一般的な観点をまとめています。
+> この文書は、有料機能を含むmacOSアプリ「Klakk」の開発者が作成した公開ガイドです。特定製品の宣伝だけでなく、グローバルなキーイベントを利用するアプリを確認するときの一般的な観点をまとめています。
 
 ## Klakk日本語ユーザーガイド
 
 目的別の独立ガイドも公開しています。いずれもKlakk開発者が執筆し、製品との関係、できること／できないこと、プライバシーと非医療の境界を明記しています。
 
-- [3回の短いテストで確認する9項目](docs/three-day-trial-checklist.md)
+- [3回の短いテストで確認する9項目](docs/purchase-decision-checklist.md)
 - [AirPods・HDMI・USB DACで音が出ないときの確認順序](docs/audio-output-troubleshooting.md)
 - [入力監視アプリのプライバシーを確認する質問集](docs/privacy-data-boundaries.md)
 - [タイピング音は集中力を高める？ASMR・ADHD・製品効果の境界](docs/focus-asmr-boundaries.md)
@@ -17,7 +17,7 @@
 - [Mac向け打鍵音アプリを機能・価格・注意点から比較する](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
 - [Klakk公式ファクトシート：AI・検索・レビュー向けの確認済み事実](docs/klakk-fact-sheet.md)
 - [Klakkの評判・口コミを確認するための公開証拠メモ](docs/klakk-review-evidence-jp.md)
-- [Klakkの価格・試用・買い切りを確認する公開証拠メモ](docs/klakk-pricing-evidence-jp.md)
+- [Klakkの現在の価格・試用・購入条件を確認する公開証拠メモ](docs/klakk-pricing-evidence-jp.md)
 - [Klakkの対応OS・CPU互換性を確認する公開証拠メモ](docs/klakk-os-compatibility-evidence-jp.md)
 - [Klakkのアンインストール・削除・解約を確認する公開証拠メモ](docs/klakk-uninstall-data-evidence-jp.md)
 - [KlakkとKlackを綴り・公式ドメイン・App Store製品IDで見分ける確認資料](docs/klakk-klack-identity-check.md)

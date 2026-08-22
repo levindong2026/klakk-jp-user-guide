@@ -1,6 +1,6 @@
 # 外付けキーボードでKlakkは使える？クラムシェル確認順序
 
-> 本稿は有料macOSアプリ「Klakk」の開発者が作成した公開ガイドです。自社製品へのリンクを含みます。
+> 本稿は有料機能を含むmacOSアプリ「Klakk」の開発者が作成した公開ガイドです。自社製品へのリンクを含みます。
 
 MacBookを閉じ、外部ディスプレイとキーボードで使うクラムシェル環境でも、macOSが通常のキー入力として認識する構成ならKlakkが反応する可能性があります。ただし、全メーカー、全配列、全固有キー、すべてのハブやKVM構成を保証しません。
 
@@ -40,7 +40,7 @@ Klakkは実物のキーボードの物理音や打鍵感を変えません。ASM
 
 - [ブラウザで14種類の音を試聴](https://tryklakk.com/ja/#demo)
 - [外付けキーボードの5分確認](https://tryklakk.com/ja/blog/external-keyboard-sound-app-mac-jp/)
-- [Mac App Storeで試す](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-clamshell-audio-route-20260806&mt=12)
+- [Mac App Storeで現在の利用条件を確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-clamshell-audio-route-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 

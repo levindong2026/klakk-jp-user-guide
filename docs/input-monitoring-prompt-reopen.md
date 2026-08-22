@@ -1,6 +1,6 @@
 # Input Monitoringの許可画面が出ないとき、繰り返しクリックする前に確認すること
 
-> 本稿は有料macOSアプリ「Klakk」の開発者が作成した公開ガイドです。自社製品へのリンクを含みます。
+> 本稿は有料機能を含むmacOSアプリ「Klakk」の開発者が作成した公開ガイドです。自社製品へのリンクを含みます。
 
 入力監視を使うmacOSアプリで「許可」ボタンを押しても、毎回システム設定が開くとは限りません。権限一覧に既に登録されている、以前のアプリ項目が残っている、または変更後に再起動が必要という場合があります。
 
@@ -37,7 +37,7 @@ Klakkはキーが押されたタイミングで音を再生するために権限
 KlakkはMacから追加の打鍵音を再生します。実物のキーボードの物理音や打鍵感は変えません。ASMRや集中の感じ方には個人差があり、ADHDを含む症状の診断、治療、改善を目的とした医療製品ではありません。
 
 - [14種類の音をブラウザで試聴](https://tryklakk.com/ja/#demo)
-- [Mac App Storeで試す](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-input-prompt-reopen-20260806&mt=12)
+- [Mac App Storeで現在の利用条件を確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-input-prompt-reopen-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 

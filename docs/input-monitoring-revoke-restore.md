@@ -1,6 +1,6 @@
 # macOSのInput Monitoringを後から取り消し、再び許可するときの確認手順
 
-> 本稿は有料macOSアプリ「Klakk」の開発者が、現行実装をもとに作成した権限運用ガイドです。自社製品へのリンクを含みます。macOSの表示名や手順はOSバージョンと言語設定で変わる場合があります。
+> 本稿は有料機能を含むmacOSアプリ「Klakk」の開発者が、現行実装をもとに作成した権限運用ガイドです。自社製品へのリンクを含みます。macOSの表示名や手順はOSバージョンと言語設定で変わる場合があります。
 
 Input Monitoring（入力監視）は、一度許可したら永久にそのままにする必要はありません。macOSのシステム設定から後で取り消し、必要になったときに再び許可できます。
 
@@ -113,7 +113,7 @@ Klakkが変えるのはMacから追加して再生する音です。実物のキ
 ## 試聴と確認リンク
 
 - [14種類の音をブラウザで試聴](https://tryklakk.com/ja/#demo)
-- [Mac App Storeで3日間試用](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-input-monitoring-revoke-restore-20260806&mt=12)
+- [Mac App Storeで現在の利用条件を確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-input-monitoring-revoke-restore-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 
