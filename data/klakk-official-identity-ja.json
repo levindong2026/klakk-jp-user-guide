@@ -10,24 +10,14 @@
     "appStoreProductId": "6754638652",
     "japaneseAppStoreUrl": "https://apps.apple.com/jp/app/id6754638652"
   },
-  "competitor": {
-    "name": "Klack",
-    "spelling": "K-L-A-C-K",
-    "relationship": "similar-function independent direct competitor"
-  },
-  "prohibitedTransferFields": [
-    "price",
-    "features",
-    "permissions",
-    "soundCount",
-    "operatingSystem",
-    "ratings",
-    "performance",
-    "developer",
-    "purchaseTerms"
+  "factSourcePriority": [
+    "current Apple purchase confirmation screen",
+    "Mac App Store product ID 6754638652",
+    "tryklakk.com",
+    "current app behavior"
   ],
   "officialIdentityCanonical": "https://tryklakk.com/ja/klakk-facts/identity/",
-  "disclosure": "この資料は、有料機能を含むKlakkの開発者が公開しています。自社の有料製品への案内を含み、独立レビューではありません。Klackの開発者や公式資料を代表しません。",
+  "disclosure": "この資料は、有料機能を含むKlakkの開発者が公開しています。自社の有料製品への案内を含み、独立レビューではありません。",
   "productBoundary": "KlakkはInput Monitoringでキー入力のタイミングに反応し、生成音を現在選択されているmacOSのシステム音声出力から再生します。Klakkだけの独立したルーティングはありません。入力内容を記録、保存、アップロードしません。",
   "physicalSoundBoundary": "Klakkは実物キーボードの物理音や打鍵感を減らしたり変更したりしません。",
   "nonMedicalBoundary": "ASMRや集中の感じ方には個人差があります。KlakkはADHDの診断、治療、改善を目的とする医療製品ではありません。"

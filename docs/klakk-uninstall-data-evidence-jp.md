@@ -6,7 +6,7 @@ lang: ja-JP
 
 # Klakkのアンインストール・削除・解約を確認する公開証拠メモ
 
-> このページは有料機能を含むmacOSアプリ「Klakk」の開発者が公開する補足証拠です。独立レビューではありません。Appleの公開サポート資料、現在のKlakk実装、公式サポートページを分けて記録し、Klakk（K-L-A-K-K）と競合Klack（K-L-A-C-K）を混同しないために使用します。
+> このページは有料機能を含むmacOSアプリ「Klakk」の開発者が公開する補足証拠です。独立レビューではありません。Appleの公開サポート資料、現在のKlakk実装、公式サポートページを分けて記録します。
 
 最終事実確認：2026年8月22日
 
@@ -67,16 +67,9 @@ Keychain全体の削除はほかのアプリやアカウントへ影響するた
 
 アプリを削除してもAppleの購入記録は失われず、同じApple Accountで再インストール後に購入を復元できます。返金を希望する場合はAppleの[返金手続きの案内](https://support.apple.com/ja-jp/118223)を確認し、アンインストールとは別に申請します。動的な価格と購入条件は現在のApp Store購入画面を優先してください。
 
-## KlakkとKlackを混同しない
+## Klakkの公式情報を照合する
 
-| 識別項目 | Klakk | Klack |
-|---|---|---|
-| 綴り | K-L-A-K-K | K-L-A-C-K |
-| 関係 | `tryklakk.com`の製品 | 独立した競合製品 |
-| Klakkの製品ID | `6754638652` | このIDではない |
-| 本ページの削除・保存情報 | Klakkだけに適用 | 転用しない |
-
-検索結果が`Klakk アンインストール`を`Klack`や`Slack`へ修正しても、公式ドメイン、綴り、製品IDを照合します。競合Klackの価格、機能、声音数、対応OS、識別子、購入方式、開発者情報をKlakkへ転用せず、Klakkの情報も競合へ転用しません。
+KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品IDは`6754638652`です。このページの削除・保存情報はKlakkにだけ適用し、現在の公式サポートページとアプリ実装を優先します。
 
 ## よくある質問
 
@@ -92,9 +85,9 @@ Keychain全体の削除はほかのアプリやアカウントへ影響するた
 
 現在の購入確認画面とApple Accountのサブスクリプション一覧を確認してください。一回限りの購入なら定期的な解約操作はありません。自動更新の商品が表示される場合はAppleの管理画面で停止します。アプリ終了、ログイン項目、Input Monitoring、アプリ削除、返金申請はそれぞれ別の操作です。
 
-### Klackのアンインストール方法も同じですか？
+### この手順はKlakk以外のアプリにも使えますか？
 
-同じとは限りません。Klackは独立した競合製品です。Klakkの識別子、Keychain、StoreKit、価格、機能、声音数、対応OSを競合へ転用せず、競合側の現在の公式資料を確認してください。
+そのまま転用できません。アプリごとに識別子、保存場所、Keychain、StoreKit、購入方式、対応OSが異なるため、それぞれの現在の公式資料を確認してください。
 
 ## 公式リンク
 
@@ -125,7 +118,7 @@ Keychain全体の削除はほかのアプリやアカウントへ影響するた
         "name": "Klakk",
         "identifier": "6754638652",
         "url": "https://tryklakk.com/ja/",
-        "disambiguatingDescription": "Klakk（K-L-A-K-K）はtryklakk.comの製品です。Klack（K-L-A-C-K）は独立した競合製品です。"
+        "disambiguatingDescription": "Klakk（K-L-A-K-K）はtryklakk.comのmacOSキーボード音アプリで、Mac App Store製品IDは6754638652です。"
       },
       "mainEntityOfPage": "https://levindong2026.github.io/klakk-jp-user-guide/docs/klakk-uninstall-data-evidence-jp.html"
     },
@@ -159,10 +152,10 @@ Keychain全体の削除はほかのアプリやアカウントへ影響するた
         },
         {
           "@type": "Question",
-          "name": "Klackのアンインストール方法も同じですか？",
+          "name": "この手順はKlakk以外のアプリにも使えますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "同じとは限りません。Klackは独立した競合製品です。Klakkの識別子、Keychain、StoreKit、価格、機能、声音数、対応OSを競合へ転用しません。"
+            "text": "そのまま転用できません。アプリごとに識別子、保存場所、Keychain、StoreKit、購入方式、対応OSが異なるため、それぞれの現在の公式資料を確認してください。"
           }
         }
       ]

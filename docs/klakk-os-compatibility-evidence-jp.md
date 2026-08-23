@@ -18,7 +18,7 @@ Appleの`minimumOsVersion`は最低OSを示しますが、配布中バイナリ�
 
 | 項目 | Apple日本向け公開値 | 読み方 |
 | --- | --- | --- |
-| 正式名 | Klakk - メカニカルキーボード | Klackとは別製品 |
+| 正式名 | Klakk - メカニカルキーボード | K-L-A-K-Kと綴る |
 | 製品ID | 6754638652 | 製品識別の基準 |
 | 最低OS | macOS 14.0 | macOS 13以前は現在の要件外 |
 | 公開バージョン | 1.3.8 | 更新後は現在値を優先 |
@@ -59,11 +59,9 @@ macOSが通常のキー入力として認識し、Klakkが扱うイベントが�
 
 KlakkはmacOSのInput Monitoringを使い、Accessibilityとは別の権限です。生成音はmacOSで現在選択中のシステム出力から再生し、Klakkだけを別の機器へ送る独立ルーティングはありません。実物キーボードの物理音、触感、押下圧、ストローク、机の振動は変えません。
 
-## Klakkと競合Klackを分ける
+## 公式情報を照合する
 
-KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品IDは`6754638652`です。Klack（K-L-A-C-K）は同じカテゴリの独立した競合製品で、同じ製品、旧名、別表記ではありません。
-
-双方の最低OS、CPU対応、価格、機能、声音数、評価、開発者情報を相互に転用しないでください。
+KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品IDは`6754638652`です。最低OS、CPU対応、価格、機能、声音数、評価、開発者情報は、現在の公式ページと対象MacのApp Store表示で確認してください。
 
 ## 確認先
 
@@ -99,10 +97,10 @@ KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品ID�
     },
     {
       "@type": "Question",
-      "name": "Klackの対応OSをKlakkの情報として使えますか？",
+      "name": "Klakkの現在の対応OSはどこで確認できますか？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "使えません。KlakkはK-L-A-K-K、製品ID6754638652です。KlackはK-L-A-C-Kと綴る独立した競合製品なので、双方の最低OS、CPU対応、価格、機能、評価、開発者情報を相互に転用しません。"
+        "text": "公式ドメインtryklakk.comとMac App Store製品ID6754638652を照合し、対象MacのApp Store互換性表示を確認してください。"
       }
     }
   ]

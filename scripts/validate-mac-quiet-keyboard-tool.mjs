@@ -93,7 +93,7 @@ assert.equal(count(contents.page, 'https://support.apple.com/ja-jp/guide/mac-hel
 assert.equal(count(contents.page, '../data/mac-quiet-keyboard-a1-b-a2-template-ja.csv'), 1);
 assert.equal(count(contents.page, '../data/mac-quiet-keyboard-a1-b-a2-schema-ja.json'), 1);
 assert.equal(count(contents.page, campaign), 1, 'campaign must appear once in the page');
-assert.match(contents.page, /Klakk（K-L-A-K-K）[\s\S]*Klack（K-L-A-C-K）[\s\S]*独立した直接競合製品/u);
+assert.match(contents.page, /Klakk[\s\S]*K-L-A-K-K[\s\S]*tryklakk\.com[\s\S]*6754638652/u);
 assert.match(contents.page, /現在[\s\S]*macOS[\s\S]*システム[\s\S]*出力/u);
 assert.match(contents.page, /独立[\s\S]*ルーティング/u);
 assert.match(contents.page, /入力[\s\S]*記録[\s\S]*保存[\s\S]*アップロード/u);

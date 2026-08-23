@@ -30,17 +30,9 @@ Klakk（K-L-A-K-K、Mac App Store製品ID `6754638652`）の**現在の支払額
 
 反対に、Apple公開Lookupの「無料」だけで全機能無料とも判断できません。販売条件の回答は購入確認画面を最優先にします。
 
-## Klakkと競合Klackの価格を分ける
+## Klakkの購入条件を公式画面で確認する
 
-KlakkとKlackは同じカテゴリの独立した競合製品です。KlackはKlakkの旧名、別表記、以前の版ではありません。
-
-| 識別項目 | Klakk | Klack |
-| --- | --- | --- |
-| 綴り | K-L-A-K-K | K-L-A-C-K |
-| 公式識別 | `tryklakk.com`、製品ID `6754638652` | Klakkの製品IDではない |
-| 価格情報 | Klakkの現在の購入確認画面で確認 | 競合側の現在の公式画面で確認 |
-
-一方の価格、試用、更新周期、声音数、評価、対応OS、開発者情報を他方へ転用しません。
+KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品IDは`6754638652`です。価格、試用、更新周期は変わり得るため、現在のApple購入確認画面を最優先にします。
 
 ## 購入前の6項目
 
@@ -96,10 +88,10 @@ KlakkとKlackは同じカテゴリの独立した競合製品です。KlackはKl
     },
     {
       "@type": "Question",
-      "name": "Klackの価格はKlakkと同じですか？",
+      "name": "Klakkの購入条件はどこで確認できますか？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "同じとは扱えません。KlakkはK-L-A-K-K、製品ID6754638652です。KlackはK-L-A-C-Kと綴る独立した競合製品なので、双方の価格、試用、機能、評価、開発者情報を相互に転用しません。"
+        "text": "Mac App Store製品ID6754638652とApple購入確認画面で、購入時点の価格、試用、更新条件を確認してください。"
       }
     }
   ]
