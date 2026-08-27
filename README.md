@@ -23,7 +23,7 @@
 - [Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)
 - [Input Monitoringを後から取り消し、再び許可するときの確認手順](docs/input-monitoring-revoke-restore.md)
 - [打鍵音アプリの音量を決めるときに、先に分けたい4種類の音](docs/typing-sound-volume-calibration.md)
-- [メニューバーアプリを「ログイン時に起動」するか決めるチェックリスト](docs/launch-at-login-decision-guide.md)
+- [Macキーボード音アプリをログイン時に自動起動する方法](docs/launch-at-login-decision-guide.md)
 - [Macのスリープ復帰後に打鍵音が出ないときの確認順序](docs/sleep-wake-recovery-checklist.md)
 - [AirPodsで打鍵音が遅れて聞こえるとき、入力漏れと遅延を分ける確認手順](docs/bluetooth-latency-diagnosis.md)
 - [クラムシェルモードで打鍵音の出力先が変わったときの確認順序](docs/clamshell-audio-route-check.md)
