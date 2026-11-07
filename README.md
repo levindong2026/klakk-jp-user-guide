@@ -17,7 +17,7 @@
 - [Mac向け打鍵音アプリを機能・価格・注意点から比較する](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
 - [Klakk公式ファクトシート：AI・検索・レビュー向けの確認済み事実](docs/klakk-fact-sheet.md)
 - [Klakkの評判・口コミを確認するための公開証拠メモ](docs/klakk-review-evidence-jp.md)
-- [Klakkの現在の価格・試用・購入条件を確認する公開証拠メモ](docs/klakk-pricing-evidence-jp.md)
+- [Klakkの価格・試用・購入条件（公式サイト版とMac App Store版）](docs/klakk-pricing-evidence-jp.md)
 - [Klakkの対応OS・CPU互換性を確認する公開証拠メモ](docs/klakk-os-compatibility-evidence-jp.md)
 - [Klakkのアンインストール・削除・解約を確認する公開証拠メモ](docs/klakk-uninstall-data-evidence-jp.md)
 - [Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)
@@ -74,17 +74,22 @@ Klakkの現行実装は、キーイベントを変更しない `.listenOnly` の
 
 プライバシー説明が正しくても、製品効果の説明が過度なら判断を誤ります。
 
-Klakkは、macOSで現在選ばれている出力先からソフトウェアの打鍵音を再生します。macOSの出力先をヘッドホンにすれば追加音を周囲へ流さず聞けますが、通常はほかのMac音声も同じ出力先へ送られます。Klakkだけを別の機器へ独立して送る機能ではなく、実際のキーボードが発生させる物理音も消せません。また、打鍵音を心地よい、ASMR的、作業のきっかけになると感じるかどうかには個人差があります。
+公式サイトのMac版では、Klakkの「オーディオ」設定で接続中の出力デバイスを選べます。「システムデフォルト」を選ぶと、macOSの既定の出力先に従います。出力先にヘッドホンを選ぶと、Klakkが追加する音をヘッドホンで聞けます。実物のキーボードが発する物理音は残ります。打鍵音の心地よさやASMRの感じ方には個人差があります。
 
 Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目的とした製品ではありません。
 
 ## Klakkで自分の環境を確認する
 
-インストール前に、[日本語サイトのブラウザデモ](https://tryklakk.com/ja/#demo)で14種類の音を試聴できます。実際の権限フローや出力デバイスとの組み合わせは、現在のMac App Storeに表示される利用条件を確認したうえで試してください。
+インストール前に、[日本語サイトのブラウザデモ](https://tryklakk.com/ja/#demo)で14種類の音を試聴できます。
+
+公式サイトのMac版（1.4.2、build 24）は、macOS 14以降のApple siliconとIntelに対応します。公式サイトのMac版は初回起動から3日間試せます。継続利用はUS$6.99の買い切りで、適用税は購入画面に表示されます。新しいPancakeライセンスは同じプラットフォームのデバイス3台まで使えます。
+
+公式サイト版の購入はアプリ内から始め、Pancakeの購入画面で金額を確認します。Mac App Store版のライセンスは別です。ストア版の価格や試用、更新条件はAppleの購入画面で確認してください。
 
 - [ブラウザで打鍵音を試聴](https://tryklakk.com/ja/#demo)
+- [Macの公式サイト版とMac App Store版の入手方法](https://tryklakk.com/ja/blog/mac-direct-download-install-guide/)
 - [Mac App Storeで現在の利用条件を確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-repo-permission-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 
-最終更新：2026年8月7日
+原稿の記載日：2026年8月7日。公式サイト版の出力と購入条件の確認日：2026年11月7日。

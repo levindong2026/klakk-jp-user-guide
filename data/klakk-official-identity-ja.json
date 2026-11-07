@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "version": "1.0",
-  "updated": "2026-08-11",
+  "updated": "2026-11-07",
   "language": "ja-JP",
   "klakk": {
     "name": "Klakk",
@@ -11,14 +11,15 @@
     "japaneseAppStoreUrl": "https://apps.apple.com/jp/app/id6754638652"
   },
   "factSourcePriority": [
-    "current Apple purchase confirmation screen",
-    "Mac App Store product ID 6754638652",
-    "tryklakk.com",
-    "current app behavior"
+    "tryklakk.com for current website edition facts",
+    "current Pancake checkout for website edition tax and amount charged",
+    "current Apple purchase confirmation screen for Mac App Store purchase terms",
+    "Mac App Store product ID 6754638652 for store listing identity",
+    "current behavior of the identified edition"
   ],
   "officialIdentityCanonical": "https://tryklakk.com/ja/klakk-facts/identity/",
   "disclosure": "この資料は、有料機能を含むKlakkの開発者が公開しています。自社の有料製品への案内を含み、独立レビューではありません。",
-  "productBoundary": "KlakkはInput Monitoringでキー入力のタイミングに反応し、生成音を現在選択されているmacOSのシステム音声出力から再生します。Klakkだけの独立したルーティングはありません。入力内容を記録、保存、アップロードしません。",
+  "productBoundary": "KlakkはInput Monitoringでキー入力のタイミングに反応します。公式サイトのMac版では、Klakkの「オーディオ」設定で接続中の出力デバイスを選べます。「システムデフォルト」を選ぶと、macOSの既定の出力先に従います。入力した文章や個々のキーストローク内容を記録、保存、アップロードしません。",
   "physicalSoundBoundary": "Klakkは実物キーボードの物理音や打鍵感を減らしたり変更したりしません。",
   "nonMedicalBoundary": "ASMRや集中の感じ方には個人差があります。KlakkはADHDの診断、治療、改善を目的とする医療製品ではありません。"
 }
