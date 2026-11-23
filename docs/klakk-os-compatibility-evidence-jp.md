@@ -10,7 +10,7 @@ lang: ja-JP
 
 ## 30秒回答
 
-**2026年8月10日のApple日本向け公開Lookupでは、Klakk（K-L-A-K-K、製品ID `6754638652`）の最低対応OSはmacOS 14.0、公開バージョンは1.3.8でした。macOS 13以前は現在の最低要件を満たしません。**
+**公式サイトのMac版1.4.3（build 25）は、macOS 14以降のApple siliconとIntelに対応します。** [公式DMGとインストール手順](https://tryklakk.com/ja/blog/mac-direct-download-install-guide/)を確認できます（2026年11月23日確認）。**2026年8月10日のApple日本向け公開Lookupでは、Klakk（K-L-A-K-K、製品ID `6754638652`）の最低対応OSはmacOS 14.0、公開バージョンは1.3.8でした。macOS 13以前は現在の最低要件を満たしません。**
 
 Appleの`minimumOsVersion`は最低OSを示しますが、配布中バイナリがApple SiliconとIntelの両方を含むかまでは示しません。検索結果だけでIntel対応を断定せず、インストール前に対象Macで[現在のMac App Store掲載ページ](https://apps.apple.com/jp/app/id6754638652)を開き、入手可否と互換性表示を確認してください。
 
@@ -57,7 +57,7 @@ Appleの`minimumOsVersion`は最低OSを示しますが、配布中バイナリ�
 
 macOSが通常のキー入力として認識し、Klakkが扱うイベントが届く構成なら反応する可能性があります。ただし全メーカー、全配列、固有キー、Hub、KVM、配列変更ソフトとの完全互換は保証しません。内蔵、直結USB、Bluetoothを一条件ずつ比較してください。
 
-KlakkはmacOSのInput Monitoringを使い、Accessibilityとは別の権限です。生成音はmacOSで現在選択中のシステム出力から再生し、Klakkだけを別の機器へ送る独立ルーティングはありません。実物キーボードの物理音、触感、押下圧、ストローク、机の振動は変えません。
+公式サイト版のKlakkはmacOSの「入力監視」を使います。入力監視はアクセシビリティとは別の権限です。Klakkが追加する音は、[「オーディオ」設定](https://tryklakk.com/ja/blog/mac-direct-download-install-guide/#%E6%99%AE%E6%AE%B5%E3%81%AE%E4%BD%9C%E6%A5%AD%E3%81%A7%E9%9F%B3%E3%82%92%E8%A9%A6%E3%81%99)でMacの既定出力または接続中の機器を選んで再生できます。実物キーボードの物理音、触感、押下圧、ストローク、机の振動は変えません。
 
 ## 公式情報を照合する
 
