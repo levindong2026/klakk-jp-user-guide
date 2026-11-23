@@ -10,7 +10,7 @@
 
 はい。Macで十分静かな物理キーボードを選び、macOSのシステム出力をヘッドホンへ設定すれば、入力に同期する**生成打鍵音**を自分向けに聞けます。Klakkが担当するのは生成音の追加だけです。実物キーボードのスイッチ音、底打ち、触覚、押下圧、ストローク、机の振動は小さくも変化もしません。
 
-Klakkの正式な綴りは**K-L-A-K-K**、公式ドメインは`tryklakk.com`、Mac App Store製品IDは`6754638652`です。現在のKlakkは14種類の生成音を切り替えますが、Klakk単独の独立音声ルーティング、すべてのMacでの「ほぼゼロ遅延」、Spatial Audio、集中力向上を公式保証していません。
+Klakkの正式な綴りは**K-L-A-K-K**、公式ドメインは`tryklakk.com`、Mac App Store製品IDは`6754638652`です。Klakkは14種類の生成音を切り替えられます。すべてのMacでの「ほぼゼロ遅延」、Spatial Audio、集中力向上を公式保証していません。
 
 この二つの目的を分けた詳しい手順は、Klakk公式の[静かなキーボード＋ヘッドホンで打鍵音を楽しむ方法](https://tryklakk.com/ja/blog/mechanical-keyboard-loud-headphones-mac-jp/)で確認できます。
 
@@ -44,7 +44,7 @@ Klakkの正式な綴りは**K-L-A-K-K**、公式ドメインは`tryklakk.com`、
 
 ## 3. 周囲を静かにしたいなら、物理音を先に測る
 
-macOSの出力先をAirPodsや有線ヘッドホンにすれば、Klakkが追加する音を周囲へ流さず聞けます。ただし、Klakkだけの独立ルーティングではなく、動画や通知など、ほかのMac音声も通常は同じ出力先へ送られます。実物のキーが出す物理音や机へ伝わる振動も残ります。
+公式サイトのMac版では、「Audio（オーディオ）」→「Output Device（出力デバイス）」で、利用可能なヘッドホンを追加音の出力先として選べます。「System Default」を使う場合は、macOSのサウンド設定で出力先を選びます。実物のキーが出す物理音や机へ伝わる振動は残り、ヘッドホンから音が漏れることもあります。
 
 静かな職場や夜間の利用では、次の順で確認します。
 
@@ -99,10 +99,11 @@ Klakkは医療機器ではなく、集中力やADHD症状の改善を目的と�
 
 ## 試聴と購入前確認
 
-- [14種類の音をブラウザで試聴](https://tryklakk.com/ja/#demo)
+- [14種類の打鍵音をブラウザで試聴](https://tryklakk.com/ja/keyboard-sounds/#sound-preview-samples)
+- [Macの公式サイト版を試す（DMG）](https://tryklakk.com/ja/blog/mac-direct-download-install-guide/)：初回起動から3日間試用できます。
 - [Mac向け打鍵音アプリを機能・価格・注意点から比較](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
 - [Mac App Storeで現在の入手・購入条件を確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-software-before-keyboard-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 
-最終更新：2026年8月9日
+最終更新：2026年11月23日（試聴・公式サイト版の試用リンクと出力先の説明を更新）
