@@ -10,7 +10,7 @@ lang: ja-JP
 
 ## 30秒回答
 
-**公式サイトのMac版1.4.3（build 25）は、macOS 14以降のApple siliconとIntelに対応します。** [公式DMGとインストール手順](https://tryklakk.com/ja/blog/mac-direct-download-install-guide/)を確認できます（2026年11月23日確認）。**2026年8月10日のApple日本向け公開Lookupでは、Klakk（K-L-A-K-K、製品ID `6754638652`）の最低対応OSはmacOS 14.0、公開バージョンは1.3.8でした。macOS 13以前は現在の最低要件を満たしません。**
+**公式サイトのMac版1.4.4（build 26）は、macOS 14以降のApple siliconとIntelに対応します。** [公式DMGとインストール手順](https://tryklakk.com/ja/blog/mac-direct-download-install-guide/)を確認できます（2026年11月23日確認）。**2026年8月10日のApple日本向け公開Lookupでは、Klakk（K-L-A-K-K、製品ID `6754638652`）の最低対応OSはmacOS 14.0、公開バージョンは1.3.8でした。macOS 13以前は現在の最低要件を満たしません。**
 
 Appleの`minimumOsVersion`は最低OSを示しますが、配布中バイナリがApple SiliconとIntelの両方を含むかまでは示しません。検索結果だけでIntel対応を断定せず、インストール前に対象Macで[現在のMac App Store掲載ページ](https://apps.apple.com/jp/app/id6754638652)を開き、入手可否と互換性表示を確認してください。
 
