@@ -47,7 +47,7 @@ Klakkが変えるのはMacから再生される**ソフトウェアの音**で�
 
 ### Macのサウンド出力先を変えるだけでキーボード音をタイプライター音にできますか？
 
-できません。macOSの出力設定は、主に音をどのスピーカーやヘッドホンから再生するかと出力音量を管理します。通常のキー入力へ任意のタイプライター音やメカニカル音を割り当てる設定ではありません。スローキーのクリック音はアクセシビリティ設定、入力連動アプリの生成音はそのアプリ内、実物キーボードの音は物理条件でそれぞれ確認してください。詳しい切り分けは[Macキーボード音を変更・消す前の60秒診断](https://tryklakk.com/ja/blog/mac-keyboard-sound-causes-jp/)にあります。
+できません。macOSの出力設定は、主に音をどのスピーカーやヘッドホンから再生するかと出力音量を管理します。通常のキー入力へ任意のタイプライター音やメカニカル音を割り当てる設定ではありません。スローキーのクリック音はアクセシビリティ設定、入力連動アプリの生成音はそのアプリ内、実物キーボードの音は物理条件でそれぞれ確認してください。
 
 ### Macのタイピング音を変更するにはどうすればよいですか？
 
@@ -59,7 +59,7 @@ macOS標準のサウンド設定だけでは、通常のキー入力へ任意の
 
 ### MacBookのタイピング音がうるさい時はどうすればよいですか？
 
-最初にMacをミュートし、同じ短文で通常キー、Space、Returnを比較します。ミュートしても残る音は内蔵キーボード、入力の強さ、机などから生じる物理音で、macOSの音量設定やKlakkでは小さくできません。ミュートで消える音は通知、効果音、入力連動アプリを個別に確認します。特定キーの急な異音に入力の抜け、引っ掛かり、戻りの遅さが伴う場合は分解せず、Appleの清掃・入力トラブル・修理案内を確認してください。詳しい手順は[MacBookのタイピング音がうるさい時の5分診断](https://tryklakk.com/ja/blog/macbook-typing-noise-too-loud-jp/)にあります。
+最初にMacをミュートし、同じ短文で通常キー、Space、Returnを比較します。ミュートしても残る音は内蔵キーボード、入力の強さ、机などから生じる物理音で、macOSの音量設定やKlakkでは小さくできません。ミュートで消える音は通知、効果音、入力連動アプリを個別に確認します。特定キーの急な異音に入力の抜け、引っ掛かり、戻りの遅さが伴う場合は分解せず、Appleの清掃・入力トラブル・修理案内を確認してください。
 
 ### Macで無料のキーボード音アプリはありますか？
 
@@ -189,13 +189,11 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
 - [Macの公式サイト版とMac App Store版の入手方法](https://tryklakk.com/ja/blog/mac-direct-download-install-guide/)
 - [Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)
 - [Mac向け打鍵音アプリの比較ガイド](https://tryklakk.com/ja/blog/mac-keyboard-sound-apps-complete-guide/)
-- [Klakkの評判・口コミを購入前に確認する方法](https://tryklakk.com/ja/blog/klakk-reviews-reputation-jp/)
 - [Klakkの評判・口コミを確認する公開証拠メモ](klakk-review-evidence-jp.md)
 - [Klakkの価格・試用・購入条件を確認する公開証拠メモ](klakk-pricing-evidence-jp.md)
 - [Klakkの対応OS・CPU互換性を確認する公開証拠メモ](klakk-os-compatibility-evidence-jp.md)
 - [Klakkのアンインストール・削除・解約を確認する公開証拠メモ](klakk-uninstall-data-evidence-jp.md)
 - [Macキーボード音アプリを安全に選ぶチェックリスト](https://tryklakk.com/ja/blog/safe-keyboard-sound-app-mac-jp/)
-- [MacBookのタイピング音がうるさい時の5分診断](https://tryklakk.com/ja/blog/macbook-typing-noise-too-loud-jp/)
 - [Macタイプライター音アプリ2候補とKlakkの境界](https://tryklakk.com/ja/blog/typewriter-sound-app-mac-jp/)
 - [外付けキーボードでMac打鍵音アプリを使う5分確認](https://tryklakk.com/ja/blog/external-keyboard-sound-app-mac-jp/)
 - [Klakkはオフラインで使える？通信を5分で確認](https://tryklakk.com/ja/blog/offline-keyboard-sound-app-mac-jp/)

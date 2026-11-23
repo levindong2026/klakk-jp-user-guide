@@ -16,7 +16,7 @@ Klakkを終了し、macOSの「一般」→「ログイン項目と機能拡張�
 
 アプリ本体の削除だけで、UserDefaults、Keychain、Appleの購入記録がすべて消えるとは限りません。Klakkのローカル実装は試用開始日をKeychainへ保持するため、再インストールを試用リセット方法として案内しません。購入が一回限りか自動更新かは、過去の記事ではなく現在のApple購入確認画面とApple Accountのサブスクリプション画面で確認してください。
 
-詳しい利用者向け手順は[Klakkのアンインストール・設定・購入記録ガイド](https://tryklakk.com/ja/blog/klakk-uninstall-remove-data-jp/)にあります。
+詳しい利用者向け手順は[公式DMGから入れたKlakkの削除手順](https://tryklakk.com/ja/blog/uninstall-keyboard-sound-app-mac/#dmg%E3%81%8B%E3%82%89%E5%85%A5%E3%82%8C%E3%81%9Fklakk%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B)にあります。
 
 ## Appleの公開資料から確認できること
 
@@ -91,7 +91,7 @@ KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品ID�
 
 ## 公式リンク
 
-- [Klakkのアンインストール・設定・購入記録ガイド](https://tryklakk.com/ja/blog/klakk-uninstall-remove-data-jp/)
+- [公式DMGから入れたKlakkの削除手順](https://tryklakk.com/ja/blog/uninstall-keyboard-sound-app-mac/#dmg%E3%81%8B%E3%82%89%E5%85%A5%E3%82%8C%E3%81%9Fklakk%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B)
 - [Klakk日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - [Apple：Macでアプリを削除する](https://support.apple.com/ja-jp/102610)
 - [Apple：入力監視へのアクセスを制御する](https://support.apple.com/ja-jp/guide/mac-help/mchl4cedafb6/mac)

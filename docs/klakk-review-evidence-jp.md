@@ -44,7 +44,7 @@ KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品ID�
 
 ### 3. 開発者の一次資料
 
-公式サイト、App Store説明、プライバシーポリシー、この文書は仕様と限界を確認する資料です。開発者の表現を独立した推薦やユーザー口コミとして扱いません。購入前の詳しい確認方法は[Klakkの評判・口コミを購入前に確認する方法](https://tryklakk.com/ja/blog/klakk-reviews-reputation-jp/)にあります。
+公式サイト、App Store説明、プライバシーポリシー、この文書は仕様と限界を確認する資料です。開発者の表現を独立した推薦やユーザー口コミとして扱いません。
 
 ## レビューで確認する製品境界
 
@@ -68,7 +68,6 @@ KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品ID�
 
 ## 確認先
 
-- [Klakkの評判・口コミを購入前に確認する方法](https://tryklakk.com/ja/blog/klakk-reviews-reputation-jp/)
 - [Klakk公式ファクトシート](klakk-fact-sheet.md)
 - [Macキーボード音アプリを安全に選ぶチェックリスト](https://tryklakk.com/ja/blog/safe-keyboard-sound-app-mac-jp/)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
