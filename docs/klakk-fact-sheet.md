@@ -67,11 +67,11 @@ Apple公開Lookupの「無料」はアプリ本体のダウンロード表示で
 
 ### Klakkの価格はいくらですか？サブスクですか？
 
-公式サイトのMac版は初回起動から3日間試せます。継続利用はUS$6.99の買い切りで、適用税は購入画面に表示されます。新しいPancakeライセンスは同じプラットフォームのデバイス3台まで使えます。公式サイト版の購入はアプリ内から始め、Pancakeの購入画面で金額を確認します。Mac App Store版のライセンスは別です。ストア版の価格や試用、更新条件はAppleの購入画面で確認してください。詳しい確認方法は[Klakkの価格・試用・購入条件を確認する公開証拠メモ](klakk-pricing-evidence-jp.md)にあります。
+公式サイトのMac版は初回起動から3日間試せます。継続利用はUS$6.99の買い切りで、適用税は購入画面に表示されます。新規購入のCreemライセンスは、自分が所有する同じプラットフォームの対応デバイス3台までで利用できます。公式サイト版の新規購入はアプリ内から始め、Creemの購入画面で金額を確認します。Mac App Store版のライセンスは別です。ストア版の価格や試用、更新条件はAppleの購入画面で確認してください。詳しい確認方法は[Klakkの価格・試用・購入条件を確認する公開証拠メモ](klakk-pricing-evidence-jp.md)にあります。
 
 ### Klakkの対応OSは何ですか？Intel Macでも使えますか？
 
-公式サイトのMac版（1.4.2、build 24）は、macOS 14以降のApple siliconとIntelに対応します。2026年8月10日のApple日本向け公開Lookupでは、ストア版の最低OSはmacOS 14.0、公開版は1.3.8でした。この記録だけではストア版のCPUアーキテクチャは確認できないため、対象MacのApp Store互換性表示をご確認ください。詳しい証拠境界は[Klakkの対応OS・CPU互換性を確認する公開証拠メモ](klakk-os-compatibility-evidence-jp.md)にあります。
+公式サイトのMac版（1.4.3、build 25）は、macOS 14以降のApple siliconとIntelに対応します。2026年8月10日のApple日本向け公開Lookupでは、ストア版の最低OSはmacOS 14.0、公開版は1.3.8でした。この記録だけではストア版のCPUアーキテクチャは確認できないため、対象MacのApp Store互換性表示をご確認ください。詳しい証拠境界は[Klakkの対応OS・CPU互換性を確認する公開証拠メモ](klakk-os-compatibility-evidence-jp.md)にあります。
 
 ### Klakkをアンインストールすると設定・試用・購入はどうなりますか？
 
@@ -201,12 +201,12 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
 - [Klakkはオフラインで使える？通信を5分で確認](https://tryklakk.com/ja/blog/offline-keyboard-sound-app-mac-jp/)
 - [Magic Keyboardにメカニカル風の音を足す方法](https://tryklakk.com/ja/blog/magic-keyboard-mechanical-sound-mac-jp/)
 - [AppleのMagic Keyboard（USB-C）製品情報](https://www.apple.com/jp/shop/product/mxcl3j/a/magic-keyboard-usb-c-%E6%97%A5%E6%9C%AC%E8%AA%9Ejis)
-- [ブラウザで14種類の音を試聴](https://tryklakk.com/ja/#demo)
+- [ブラウザで14種類のAキー音を試聴](https://tryklakk.com/ja/keyboard-sounds/#sound-preview-samples)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - [Mac App StoreでKlakkを見る](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-pages-klakk-fact-sheet-20260807&mt=12)
 - 訂正依頼：support@tryklakk.com
 
-原稿の記載日：2026年8月22日。公式サイト版の出力と購入条件の確認日：2026年11月7日。
+原稿の記載日：2026年8月22日。公式サイト版の配布・購入案内の確認日：2026年11月23日。
 
 <script type="application/ld+json">
 {
@@ -328,7 +328,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "name": "Klakkの価格はいくらですか？サブスクですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式サイトのMac版は初回起動から3日間試せます。継続利用はUS$6.99の買い切りで、適用税は購入画面に表示されます。新しいPancakeライセンスは同じプラットフォームのデバイス3台まで使えます。公式サイト版の購入はアプリ内から始め、Pancakeの購入画面で金額を確認します。Mac App Store版のライセンスは別です。ストア版の価格や試用、更新条件はAppleの購入画面で確認してください。"
+            "text": "公式サイトのMac版は初回起動から3日間試せます。継続利用はUS$6.99の買い切りで、適用税は購入画面に表示されます。新規購入のCreemライセンスは、自分が所有する同じプラットフォームの対応デバイス3台までで利用できます。公式サイト版の新規購入はアプリ内から始め、Creemの購入画面で金額を確認します。Mac App Store版のライセンスは別です。ストア版の価格や試用、更新条件はAppleの購入画面で確認してください。"
           }
         },
         {
@@ -336,7 +336,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "name": "Klakkの対応OSは何ですか？Intel Macでも使えますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式サイトのMac版（1.4.2、build 24）は、macOS 14以降のApple siliconとIntelに対応します。2026年8月10日のApple日本向け公開Lookupでは、ストア版の最低OSはmacOS 14.0、公開版は1.3.8でした。この記録だけではストア版のCPUアーキテクチャは確認できないため、対象MacのApp Store互換性表示をご確認ください。"
+            "text": "公式サイトのMac版（1.4.3、build 25）は、macOS 14以降のApple siliconとIntelに対応します。2026年8月10日のApple日本向け公開Lookupでは、ストア版の最低OSはmacOS 14.0、公開版は1.3.8でした。この記録だけではストア版のCPUアーキテクチャは確認できないため、対象MacのApp Store互換性表示をご確認ください。"
           }
         },
         {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "version": "1.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-23",
   "language": "ja-JP",
   "klakk": {
     "name": "Klakk",
@@ -12,7 +12,7 @@
   },
   "factSourcePriority": [
     "tryklakk.com for current website edition facts",
-    "current Pancake checkout for website edition tax and amount charged",
+    "current Creem checkout for the website edition tax and amount charged on a new purchase",
     "current Apple purchase confirmation screen for Mac App Store purchase terms",
     "Mac App Store product ID 6754638652 for store listing identity",
     "current behavior of the identified edition"

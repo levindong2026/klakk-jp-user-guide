@@ -80,16 +80,16 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
 
 ## Klakkで自分の環境を確認する
 
-インストール前に、[日本語サイトのブラウザデモ](https://tryklakk.com/ja/#demo)で14種類の音を試聴できます。
+インストール前に、[日本語の試聴ページ](https://tryklakk.com/ja/keyboard-sounds/#sound-preview-samples)で14種類のAキー音をタップまたはクリックして聴き比べられます。同じページから公式サイト版をダウンロードできます。
 
-公式サイトのMac版（1.4.2、build 24）は、macOS 14以降のApple siliconとIntelに対応します。公式サイトのMac版は初回起動から3日間試せます。継続利用はUS$6.99の買い切りで、適用税は購入画面に表示されます。新しいPancakeライセンスは同じプラットフォームのデバイス3台まで使えます。
+公式サイトのMac版（1.4.3、build 25）は、macOS 14以降のApple siliconとIntelに対応します。公式サイトのMac版は初回起動から3日間試せます。継続利用はUS$6.99の買い切りで、適用税は購入画面に表示されます。新規購入のCreemライセンスは、自分が所有する同じプラットフォームの対応デバイス3台までで利用できます。
 
-公式サイト版の購入はアプリ内から始め、Pancakeの購入画面で金額を確認します。Mac App Store版のライセンスは別です。ストア版の価格や試用、更新条件はAppleの購入画面で確認してください。
+公式サイト版の新規購入はアプリ内から始め、Creemの購入画面で金額を確認します。Mac App Store版のライセンスは別です。ストア版の価格や試用、更新条件はAppleの購入画面で確認してください。
 
-- [ブラウザで打鍵音を試聴](https://tryklakk.com/ja/#demo)
+- [ブラウザで14音色を試聴](https://tryklakk.com/ja/keyboard-sounds/#sound-preview-samples)
 - [Macの公式サイト版とMac App Store版の入手方法](https://tryklakk.com/ja/blog/mac-direct-download-install-guide/)
 - [Mac App Storeで現在の利用条件を確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-repo-permission-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
 
-原稿の記載日：2026年8月7日。公式サイト版の出力と購入条件の確認日：2026年11月7日。
+原稿の記載日：2026年8月7日。公式サイト版の配布・購入案内の確認日：2026年11月23日。
