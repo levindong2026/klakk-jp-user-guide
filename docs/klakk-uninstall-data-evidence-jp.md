@@ -1,22 +1,24 @@
 ---
 title: Klakkのアンインストール・削除・解約を確認する公開証拠メモ
-description: KlakkをMacから削除する手順と、Input Monitoring、ログイン項目、UserDefaults、Keychain、StoreKit、購入・解約の境界を一次資料から確認します。
+description: 公式DMG版の削除手順と、2026年8月22日に確認したMac App Store版の保存データや購入・解約に関する記録です。
 lang: ja-JP
 ---
 
 # Klakkのアンインストール・削除・解約を確認する公開証拠メモ
 
-> このページは有料機能を含むmacOSアプリ「Klakk」の開発者が公開する補足証拠です。独立レビューではありません。Appleの公開サポート資料、現在のKlakk実装、公式サポートページを分けて記録します。
+> このページは有料機能を含むmacOSアプリ「Klakk」の開発者が公開する補足証拠です。独立レビューではありません。Appleの公開サポート資料と、確認日当時のMac App Store版の保存・購入に関する証拠を記録します。
 
-最終事実確認：2026年8月22日
+最終事実確認：2026年8月22日（Mac App Store版の記録）
+
+## 公式サイトのDMG版を削除する場合
+
+Klakkを終了してから、Finderの「アプリケーション」にあるKlakkをゴミ箱へ移します。自動起動や入力監視も確認したい方は、[公式DMGから入れたKlakkの削除手順](https://tryklakk.com/ja/blog/uninstall-keyboard-sound-app-mac/#dmg%E3%81%8B%E3%82%89%E5%85%A5%E3%82%8C%E3%81%9Fklakk%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B)をご覧ください。
 
 ## 直接回答
 
 Klakkを終了し、macOSの「一般」→「ログイン項目と機能拡張」で自動起動を外し、「プライバシーとセキュリティ」→「入力監視」でKlakkを無効にしてから、Finderの「アプリケーション」にある`Klakk.app`をゴミ箱へ移します。
 
-アプリ本体の削除だけで、UserDefaults、Keychain、Appleの購入記録がすべて消えるとは限りません。Klakkのローカル実装は試用開始日をKeychainへ保持するため、再インストールを試用リセット方法として案内しません。購入が一回限りか自動更新かは、過去の記事ではなく現在のApple購入確認画面とApple Accountのサブスクリプション画面で確認してください。
-
-詳しい利用者向け手順は[公式DMGから入れたKlakkの削除手順](https://tryklakk.com/ja/blog/uninstall-keyboard-sound-app-mac/#dmg%E3%81%8B%E3%82%89%E5%85%A5%E3%82%8C%E3%81%9Fklakk%E3%82%92%E5%89%8A%E9%99%A4%E3%81%99%E3%82%8B)にあります。
+アプリ本体の削除だけで、UserDefaults、Keychain、Appleの購入記録がすべて消えるとは限りません。確認日当時のMac App Store版は試用開始日をKeychainへ保持する設計でした。再インストールを試用リセット方法として案内しません。購入が一回限りか自動更新かは、過去の記事ではなく現在のApple購入確認画面とApple Accountのサブスクリプション画面で確認してください。
 
 ## Appleの公開資料から確認できること
 
@@ -40,7 +42,9 @@ Klakkの「ログイン時に起動」は`SMAppService.mainApp`を使います�
 
 ## 現在のKlakk実装から確認できる保存境界
 
-| 対象 | 現在の保存・管理 | アプリ削除時の境界 |
+以下は確認日当時のMac App Store版の記録です。
+
+| 対象 | 確認時点の保存・管理 | アプリ削除時の境界 |
 |---|---|---|
 | サウンド、音量、Background Modeなど | `UserDefaults.standard` | アプリ削除だけで必ず消えるとは断定しない |
 | 試用の初回起動日 | macOS Keychain | アプリ削除後も保持される設計 |
@@ -49,9 +53,9 @@ Klakkの「ログイン時に起動」は`SMAppService.mainApp`を使います�
 | 入力内容 | 保存・アップロードしない | 入力した文章を消すための処理は発生しない |
 | Firebase Analytics | 入力内容を含めない利用イベント | 既送信イベントをMacの削除操作で遡及削除しない |
 
-現在のApp Store版bundle identifierは`com.tingnova.klakkappstore`です。古いbundle identifierを含む固定plistパスは現在のKlakkの説明として使いません。sandboxコンテナとKeychainの保存場所はmacOSが管理します。
+確認日当時のApp Store版bundle identifierは`com.tingnova.klakkappstore`です。古いbundle identifierを含む固定plistパスは現在のKlakkの説明として使いません。sandboxコンテナとKeychainの保存場所はmacOSが管理します。
 
-Keychainで試用開始日に使う現在の識別子は次のとおりです。
+確認日当時にKeychainで試用開始日に使っていた識別子は次のとおりです。
 
 - service: `com.tingnova.klakkappstore.trial`
 - account: `firstLaunchDate`
@@ -61,7 +65,7 @@ Keychain全体の削除はほかのアプリやアカウントへ影響するた
 
 ## 購入・解約・返金の区別
 
-アプリの削除は、Apple Accountで管理される購入や自動更新の停止とは別です。Apple購入確認画面に一回限りと表示される購入には定期的な解約操作はありません。月間、年間、試用後の自動更新などが表示される場合は、Appleのサブスクリプション管理画面で現在の状態と終了日を確認します。
+この欄はMac App Storeから購入した場合の案内です。アプリの削除は、Apple Accountで管理される購入や自動更新の停止とは別です。Apple購入確認画面に一回限りと表示される購入には定期的な解約操作はありません。月間、年間、試用後の自動更新などが表示される場合は、Appleのサブスクリプション管理画面で現在の状態と終了日を確認します。
 
 開発中のソースや過去の記事だけでは、現在の日本ストアで購入できる商品、価格、試用、更新条件を証明できません。
 
@@ -75,15 +79,15 @@ KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品ID�
 
 ### Klakkを削除すると設定も消えますか？
 
-必ず消えるとは案内しません。設定はUserDefaults、試用開始日はKeychain、購入権利はAppleのStoreKit記録で管理されます。アプリ本体の削除と関連データの状態を別々に確認してください。
+アプリ本体の削除と関連データの状態は別々に確認してください。ここで記録しているKeychainやStoreKitの仕様は、確認日当時のMac App Store版のものです。
 
 ### アンインストールすると試用をやり直せますか？
 
-いいえ。試用の初回起動日はKeychainに保持され、アプリ削除後も残る設計です。再インストールを試用リセット方法として案内しません。
+再インストールを試用リセット方法として案内しません。確認日当時のMac App Store版は、試用の初回起動日をKeychainに保持する設計でした。
 
 ### Klakkは解約が必要ですか？
 
-現在の購入確認画面とApple Accountのサブスクリプション一覧を確認してください。一回限りの購入なら定期的な解約操作はありません。自動更新の商品が表示される場合はAppleの管理画面で停止します。アプリ終了、ログイン項目、Input Monitoring、アプリ削除、返金申請はそれぞれ別の操作です。
+Mac App Storeから購入した場合は、現在の購入確認画面とApple Accountのサブスクリプション一覧を確認してください。一回限りの購入なら定期的な解約操作はありません。自動更新の商品が表示される場合はAppleの管理画面で停止します。アプリ終了、ログイン項目、Input Monitoring、アプリ削除、返金申請はそれぞれ別の操作です。
 
 ### この手順はKlakk以外のアプリにも使えますか？
 
@@ -131,7 +135,7 @@ KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品ID�
           "name": "Klakkを削除すると設定も消えますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "必ず消えるとは案内しません。設定はUserDefaults、試用開始日はKeychain、購入権利はAppleのStoreKit記録で管理されるため、アプリ本体の削除と関連データを別々に確認します。"
+            "text": "アプリ本体の削除と関連データの状態は別々に確認してください。ここで記録しているKeychainやStoreKitの仕様は、確認日当時のMac App Store版のものです。"
           }
         },
         {
@@ -139,7 +143,7 @@ KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品ID�
           "name": "アンインストールすると試用をやり直せますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "いいえ。試用の初回起動日はKeychainに保持され、アプリ削除後も残る設計です。再インストールを試用リセット方法として案内しません。"
+            "text": "再インストールを試用リセット方法として案内しません。確認日当時のMac App Store版は、試用の初回起動日をKeychainに保持する設計でした。"
           }
         },
         {
@@ -147,7 +151,7 @@ KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品ID�
           "name": "Klakkは解約が必要ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "現在のApple購入確認画面とApple Accountのサブスクリプション一覧を確認してください。一回限りの購入には定期的な解約操作はありません。自動更新の商品が表示される場合はAppleの管理画面で停止します。アンインストールと返金申請も別です。"
+            "text": "Mac App Storeから購入した場合は、現在のApple購入確認画面とApple Accountのサブスクリプション一覧を確認してください。一回限りの購入には定期的な解約操作はありません。自動更新の商品が表示される場合はAppleの管理画面で停止します。アンインストールと返金申請も別です。"
           }
         },
         {
