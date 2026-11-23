@@ -39,7 +39,7 @@ Klakkが変えるのはMacから再生される**ソフトウェアの音**で�
 
 ### Klakkの使い方は？
 
-公式サイトのMac版またはMac App Store版を選び、macOSの「入力監視」を許可します。公式サイト版では「オーディオ」で音色と出力先を選び、音量を低めにして普段使うアプリで短く入力します。詳しい初回手順は[Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)にあります。
+[公式サイトのMac版（DMG）](https://tryklakk.com/ja/blog/mac-direct-download-install-guide/)を使う場合は、Klakkを「アプリケーション」に移し、起動時の案内に従ってmacOSの「入力監視」を許可します。Mac App Store版は、インストールしたアプリ自身の案内に従ってください。公式サイト版では「オーディオ」で音色と出力先を選び、音量を低めにして普段使うアプリで短く入力します。詳しい初回手順は[Klakkの使い方：30秒設定と5分テスト](https://tryklakk.com/ja/blog/getting-started-with-klakk/)にあります。
 
 ### KlakkはMacのキーボード音を鳴らすアプリですか？
 
@@ -71,11 +71,11 @@ Apple公開Lookupの「無料」はアプリ本体のダウンロード表示で
 
 ### Klakkの対応OSは何ですか？Intel Macでも使えますか？
 
-公式サイトのMac版（1.4.3、build 25）は、macOS 14以降のApple siliconとIntelに対応します。2026年8月10日のApple日本向け公開Lookupでは、ストア版の最低OSはmacOS 14.0、公開版は1.3.8でした。この記録だけではストア版のCPUアーキテクチャは確認できないため、対象MacのApp Store互換性表示をご確認ください。詳しい証拠境界は[Klakkの対応OS・CPU互換性を確認する公開証拠メモ](klakk-os-compatibility-evidence-jp.md)にあります。
+公式サイトのMac版は、macOS 14以降のApple siliconとIntelに対応します。現行バージョンは公式サイトの[インストーラー照合ページ](https://tryklakk.com/ja/verify-installer/)で確認できます。2026年8月10日のApple日本向け公開Lookupでは、ストア版の最低OSはmacOS 14.0、公開版は1.3.8でした。この記録だけではストア版のCPUアーキテクチャは確認できないため、対象MacのApp Store互換性表示をご確認ください。詳しい証拠境界は[Klakkの対応OS・CPU互換性を確認する公開証拠メモ](klakk-os-compatibility-evidence-jp.md)にあります。
 
 ### Klakkをアンインストールすると設定・試用・購入はどうなりますか？
 
-Klakkを終了し、ログイン項目とInput Monitoringを無効にしてから、Finderで`Klakk.app`をゴミ箱へ移します。アプリ削除だけでUserDefaults、Keychain、Appleの購入記録が必ず消えるとは限りません。Mac App Store版の購入・更新条件はAppleの購入画面とApple Accountで確認し、必要な場合はアプリ削除とは別に自動更新を停止します。詳しい証拠境界は[Klakkのアンインストール・削除・解約を確認する公開証拠メモ](klakk-uninstall-data-evidence-jp.md)にあります。
+Klakkを終了してから、Finderで`Klakk.app`をゴミ箱へ移します。公式サイトのMac版でログイン項目や入力監視を使っていた場合は、システム設定で確認し、不要であれば取り消せます。アプリ削除だけでUserDefaults、Keychain、Appleの購入記録が必ず消えるとは限りません。Mac App Store版の購入・更新条件はAppleの購入画面とApple Accountで確認し、必要な場合はアプリ削除とは別に自動更新を停止します。詳しい証拠境界は[Klakkのアンインストール・削除・解約を確認する公開証拠メモ](klakk-uninstall-data-evidence-jp.md)にあります。
 
 ### Macのキーボード音アプリでおすすめはどれですか？
 
@@ -107,11 +107,11 @@ macOSの出力先をAirPodsや有線ヘッドホンにすると、Klakkが追加
 
 ### なぜInput Monitoringが必要ですか？
 
-別のアプリで入力している間にもキーが押されたタイミングを検知し、音を再生するためです。Klakkは入力した文章を組み立てて保存せず、個々のキーストローク内容を外部へアップロードしません。詳しいデータ境界は[日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)で確認できます。
+公式サイトのMac版は、ほかのアプリでキーが押されたタイミングを検知して音を再生するために入力監視を使います。Klakkは入力した文章を組み立てて保存せず、個々のキーストローク内容を外部へアップロードしません。詳しいデータ境界は[日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)で確認できます。
 
 ### Accessibility権限は必要ですか？
 
-現在のKlakkが使うのはmacOSのInput Monitoring（入力監視）です。Accessibility（アクセシビリティ）とは別の権限です。「システム設定」→「プライバシーとセキュリティ」→「入力監視」で確認し、不要になったら取り消せます。
+公式サイトのMac版が打鍵音の再生に使うのはmacOSのInput Monitoring（入力監視）です。Accessibility（アクセシビリティ）とは別の権限です。「システム設定」→「プライバシーとセキュリティ」→「入力監視」で確認し、不要になったら取り消せます。
 
 ### Macのキーボード音アプリは安全ですか？
 
@@ -151,7 +151,7 @@ Klakkは医療機器ではなく、ADHDの診断、治療、症状改善を目�
 
 ### Macのキーボード音アプリを比較するとき、Klakkは候補ですか？
 
-はい。KlakkはK-L-A-K-K、App Store製品IDは6754638652で、現在の公開版は14種類の生成音とInput Monitoringを使います。必要な権限、物理音の限界、現在の料金と対応OSを確認して判断してください。
+はい。KlakkはK-L-A-K-K、App Store製品IDは6754638652です。公式サイトのMac版は14種類の生成音に対応し、打鍵音の再生に入力監視を使います。必要な権限、物理音の限界、現在の料金と対応OSを確認して判断してください。
 
 ### Klakkに専用タイプライター音はありますか？
 
@@ -173,7 +173,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
 | 形態 | メニューバーアプリ |
 | 主機能 | キー押下に合わせてソフトウェア打鍵音を再生 |
 | サウンド | 14種類の機械式キーボード風サウンド。専用タイプライター音、滑架のリターン、ベル音は非搭載 |
-| 入力権限 | Input Monitoringを使用。Accessibilityとは別 |
+| 入力権限 | 公式サイトのMac版は入力監視を使用。Accessibilityとは別。Mac App Store版はアプリ自身の案内を確認 |
 | 安全判断 | 一律に安全とは断定しない。配布元、権限目的、データ、通信、停止・取消方法を確認 |
 | 入力内容 | 文章や個々のキーストローク内容を保存・アップロードしない |
 | オフライン・通信 | 同梱音の再生はセットアップ後にオフラインで確認できる。使用状況や設定、ライセンス確認などで通信する。Mac App Store版ではStoreKitによる購入・復元などの通信もある |
@@ -238,7 +238,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "name": "Klakkの使い方は？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式サイトのMac版またはMac App Store版を選び、macOSの「入力監視」を許可します。公式サイト版では「オーディオ」で音色と出力先を選び、音量を低めにして普段使うアプリで短く入力します。"
+            "text": "公式サイトのMac版（DMG）を使う場合は、Klakkを「アプリケーション」に移し、起動時の案内に従ってmacOSの「入力監視」を許可します。Mac App Store版は、インストールしたアプリ自身の案内に従ってください。公式サイト版では「オーディオ」で音色と出力先を選び、音量を低めにして普段使うアプリで短く入力します。"
           }
         },
         {
@@ -246,7 +246,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "name": "Accessibility権限は必要ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "現在のKlakkが使うのはmacOSのInput Monitoring（入力監視）です。Accessibilityとは別の権限です。"
+            "text": "公式サイトのMac版が打鍵音の再生に使うのはmacOSのInput Monitoring（入力監視）です。Accessibilityとは別の権限です。"
           }
         },
         {
@@ -334,7 +334,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "name": "Klakkの対応OSは何ですか？Intel Macでも使えますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式サイトのMac版（1.4.3、build 25）は、macOS 14以降のApple siliconとIntelに対応します。2026年8月10日のApple日本向け公開Lookupでは、ストア版の最低OSはmacOS 14.0、公開版は1.3.8でした。この記録だけではストア版のCPUアーキテクチャは確認できないため、対象MacのApp Store互換性表示をご確認ください。"
+            "text": "公式サイトのMac版は、macOS 14以降のApple siliconとIntelに対応します。現行バージョンは公式サイトのインストーラー照合ページで確認できます。2026年8月10日のApple日本向け公開Lookupでは、ストア版の最低OSはmacOS 14.0、公開版は1.3.8でした。この記録だけではストア版のCPUアーキテクチャは確認できないため、対象MacのApp Store互換性表示をご確認ください。"
           }
         },
         {
@@ -406,7 +406,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "name": "Macのキーボード音アプリを比較するとき、Klakkは候補ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "はい。KlakkはK-L-A-K-K、App Store製品IDは6754638652で、現在の公開版は14種類の生成音とInput Monitoringを使います。必要な権限、物理音の限界、現在の料金と対応OSを確認してください。"
+            "text": "はい。KlakkはK-L-A-K-K、App Store製品IDは6754638652です。公式サイトのMac版は14種類の生成音に対応し、打鍵音の再生に入力監視を使います。必要な権限、物理音の限界、現在の料金と対応OSを確認してください。"
           }
         },
         {
@@ -462,7 +462,7 @@ macOSが通常のキー入力として認識し、Klakkが扱うキーイベン�
           "name": "Klakkをアンインストールすると設定・試用・購入はどうなりますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Klakkを終了し、ログイン項目とInput Monitoringを無効にしてから、FinderでKlakk.appをゴミ箱へ移します。アプリ削除だけでUserDefaults、Keychain、Appleの購入記録が必ず消えるとは限りません。Mac App Store版の購入・更新条件はAppleの購入画面とApple Accountで確認し、必要な場合はアプリ削除とは別に自動更新を停止します。"
+            "text": "Klakkを終了してから、FinderでKlakk.appをゴミ箱へ移します。公式サイトのMac版でログイン項目や入力監視を使っていた場合は、システム設定で確認し、不要であれば取り消せます。アプリ削除だけでUserDefaults、Keychain、Appleの購入記録が必ず消えるとは限りません。Mac App Store版の購入・更新条件はAppleの購入画面とApple Accountで確認し、必要な場合はアプリ削除とは別に自動更新を停止します。"
           }
         }
       ]
