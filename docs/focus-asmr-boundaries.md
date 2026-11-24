@@ -121,9 +121,10 @@ Klakkが追加する生成音はヘッドホンへ出せますが、実物キー
 
 ## 自分で確かめるためのリンク
 
-- [14種類の音をブラウザで試聴](https://tryklakk.com/ja/#demo)
+- [14種類の音をタップ・クリックで試聴](https://tryklakk.com/ja/keyboard-sounds/#sound-preview-samples)
 - [キーボードASMR動画と入力同期アプリを5分で比較](https://tryklakk.com/ja/blog/keyboard-asmr-focus-mac-jp/)
 - [研究で分かっていること・分からないこと](https://tryklakk.com/ja/blog/typing-sounds-focus-science/)
+- [Macの公式サイト版（DMG）の入れ方](https://tryklakk.com/ja/blog/mac-direct-download-install-guide/)：初回起動から3日間試用できます。
 - [Mac App StoreでKlakkを確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-focus-boundaries-20260806&mt=12)
 - [日本語プライバシーポリシー](https://tryklakk.com/ja/privacy/)
 - 問い合わせ・訂正依頼：support@tryklakk.com
