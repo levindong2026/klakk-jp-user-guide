@@ -51,7 +51,7 @@ KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品ID�
 - **権限**：Klakkが使うのはmacOSのInput Monitoring（入力監視）で、Accessibilityとは別です。
 - **入力内容**：入力した文章、パスワード、個々のキーストローク内容を保存・アップロードしないと説明しています。
 - **通信**：Firebase Analytics、StoreKitの購入・復元・権利確認、更新確認などの通信はあり得ます。完全な無通信アプリではありません。
-- **音声出力**：macOSで現在選択中のシステム出力を使います。Klakkだけを別の機器へ送る独立ルーティング機能はありません。
+- **音声出力**：公式サイトのMac版1.4.4（build 26）では、Klakkの「オーディオ → 出力デバイス」で出力機器か「System Default」を選べます。起動時やオーディオ設定を開いたときに保存済みの機器が見つからない場合は、システムの既定出力に戻ることがあります。[出力先の選び方と切り替わる条件](https://tryklakk.com/ja/blog/keyboard-sounds-headphones-auto-mute/#klakk%E3%81%AEoutput-device%E3%81%A7%E6%8C%87%E5%AE%9A%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8)も確認してください。
 - **物理音**：生成音を追加しますが、実物キーボードの物理音、触感、押下圧、ストローク、振動、会議マイクへ届く音は減らしません。
 - **ASMR・集中**：心地よさや集中しやすさには個人差があり、生産性、速度、正確性の向上を保証しません。
 - **ADHD**：Klakkは医療機器ではなく、ADHDの診断、治療、予防、症状改善を目的としません。
@@ -74,4 +74,4 @@ KlakkはK-L-A-K-K、公式ドメインは`tryklakk.com`、Mac App Store製品ID�
 - [Mac App Storeで現在のKlakkを確認](https://apps.apple.com/jp/app/id6754638652?pt=127956280&ct=jp-gh-klakk-review-20260810&mt=12)
 - 訂正依頼：support@tryklakk.com
 
-最終更新：2026年8月10日
+Apple公開値の確認日：2026年8月10日
